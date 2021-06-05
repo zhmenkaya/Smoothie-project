@@ -235,7 +235,7 @@
     </div>
 
     <article class="blog__article">
-        <div class="blog-content">
+        <div class="blog__preview">
             <h3 class="blog__subtitle">ASAFOETIDA - THE NEXT TURMERIC?</h3>
             <time class="blog__date" datetime="2020-06-16">Jun 16, 2020</time>
             <p class="blog__text">If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the mixed juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything...
@@ -345,20 +345,32 @@
             </div>
         </div>
 
-        <div class="footer__follow-block">
+        <div class="footer__subscription subscription">
 
-            <h4>Don’t miss out!</h4>
+            <h4 class="subscription__caption">Don’t miss out!</h4>
 
-            <form action="#">
-                <input placeholder="Subscribe to our newsletter" type="email" name="" id="">
-                <button type="submit">Follow Us</button>
+            <form class="subscription__form" action="#">
+                <input class="subscription__newsletter" placeholder="Subscribe to our newsletter" type="email" name="" id="">
+                <button class="subscription__btn" type="submit">Follow Us</button>
             </form>
             
-            <div class="footer-social">
-                <ul>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
+            <div class="footer__social social"> 
+                <ul class="social__list">     <!--  class="subscription__list"-->
+                    <li class="social__item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="" alt="">
+                        </a>
+                    </li>
                 </ul>
             </div>
 
