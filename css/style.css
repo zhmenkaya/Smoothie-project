@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "MuliBolt";
+    src: url(/fonts/Muli-Bold.ttf);
+}
+
 .header{
     background: no-repeat url(/image/img/main-img.png);
     width: 1800px;
