@@ -1,5 +1,8 @@
 .header{
     background: no-repeat url(/image/img/main-img.png);
-    width: 100%;
-    height: 100%;
+    width: 1800px;
+    height: 1200px;
 } 
+.menu__list{
+    font-family: muli;
+}
