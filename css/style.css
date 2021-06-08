@@ -4,7 +4,9 @@
     /*font-family: "MuliRegul";
     src: url(/fonts/Muli-Regular.woff);*/
 }
-
+*{
+    box-sizing: border-box;
+}
 .header{
     background: no-repeat url(/image/img/main-img.png);
     width: 1800px;
@@ -32,7 +34,7 @@
 }
 
 .social__item{
-    padding: 15px 0 0 15px;
+    padding: 5px 0 0 10px;
     list-style-type:none;
     width: 35px;
     height: 35px;
