@@ -3,6 +3,8 @@
     src: url(/fonts/Muli-Bold.ttf);
     /*font-family: "MuliRegul";
     src: url(/fonts/Muli-Regular.woff);*/
+    font-family: "MuliExtBolt";
+    src:url(/fonts/Muli-ExtraBold.woff)
 }
 *{
     box-sizing: border-box;
@@ -93,7 +95,13 @@
 }*/
 .smoothies{}
 .smoothies__top{}
-.smoothies__title{}
+.smoothies__title{
+    font-family: "MuliExtBolt" , serif;
+    font-size: 50px;
+    color: #f7ae3b;
+    line-height: 40px;
+    text-align: center;
+}
 .smoothies__text{}
 .smoothies__content{}
 .smoothies__card{}
