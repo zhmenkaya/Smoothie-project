@@ -114,4 +114,9 @@
 .smoothies__content{}
 .smoothies__card{}
 .smoothie__img{}
-.smoothie__caption{}
+.smoothie__caption{
+    font-family: "MuliExtBolt" , serif;
+    font-size: 25px;
+    color: #f2612d;
+    line-height: 40px;
+}
