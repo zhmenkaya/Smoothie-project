@@ -6,9 +6,9 @@
 }
 *{
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
-.header{
+/*.header{
     background: no-repeat url(/image/img/main-img.png);
     width: 1920px;
     height: 1080px;
@@ -32,6 +32,7 @@
     font-size: 16px;
     line-height: 40px;
     text-transform: uppercase;
+    margin-right: 35px;
 }
 .header__right{
     display: flex;
@@ -41,11 +42,12 @@
 }
 .personal__item{
     list-style-type:none;
+    
 
 }
 .personal__counter{
     font-family: "MuliRegul" , serif;
-    /*text-decoration: none;*/
+    /*text-decoration: none;
     font-size: 10px;
     line-height: 40px;
     color: #000;
@@ -54,18 +56,24 @@
     display: flex;
 }
 .social__item{   
-    /*adding: 5px 0 0 10px;*/
+    padding: 5px 0 0 5px;
     list-style-type:none;
     width: 35px;
     height: 35px;
     background-color: #fff;
     border:1px solid #fff;
+    margin-right: 15px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
+.personal__img{
+    margin-right: 40px;
+}
+.social__icon{}
+
 .header__btn{
     background-color: #0aa566;
     width: 280px;
@@ -82,4 +90,12 @@
 .header__content{
     display: flex;
     justify-content: center;
-}
+}*/
+.smoothies{}
+.smoothies__top{}
+.smoothies__title{}
+.smoothies__text{}
+.smoothies__content{}
+.smoothies__card{}
+.smoothie__img{}
+.smoothie__caption{}
