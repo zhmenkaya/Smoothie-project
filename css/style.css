@@ -137,12 +137,23 @@
     line-height: 40px;
     text-align: center;
 }
-.about{}
+.about{
+    background-color: #158273;
+    display: flex;
+    justify-content: space-evenly;
+}
 .about__img-wrap{}
 .about__img{}
 .about__content{}
-.about__title{}
-.about__green-text{}
+.about__title{
+    font-family: "MuliExtBolt" , serif;
+    font-size: 55px;
+    line-height: 60px;
+    color: #fff;
+}
+.about__green-text{
+    color: #cae941;
+}
 .about__list{}
 .about__item{}
 .about__btn btn btn--long{}
