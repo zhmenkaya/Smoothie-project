@@ -185,8 +185,22 @@
     -o-border-radius: 30px;
 }
 .products{}
-.products__inner{}
+.products__inner{
+    display: flex;
+}
 .products__item product{}
+#first-background{
+    background-image: url(/image/img/brown-fon.png);
+}
+#second-background{
+    background-image: url(/image/img/mentol-fon.png);
+}
+#third-background{
+    background-image: url(/image/img/lemon-fon.png);
+}
+#fourth-background{
+    background-image: url(/image/img/orange-fon.png);
+}
 .product__img{}
 .product__caption{}
 .product__volume{}
