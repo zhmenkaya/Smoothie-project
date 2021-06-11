@@ -137,13 +137,18 @@
     line-height: 40px;
     text-align: center;
 }
+
 .about{
     background-color: #158273;
+    height: 800px;
+    width: 1920px;
     display: flex;
     justify-content: space-evenly;
 }
 .about__img-wrap{}
-.about__img{}
+.about__img{
+    margin-top: 60px;
+}
 .about__content{}
 .about__title{
     font-family: "MuliExtBolt" , serif;
@@ -154,6 +159,25 @@
 .about__green-text{
     color: #cae941;
 }
-.about__list{}
+.about__list{
+    font-family: "MuliExtBolt" , serif;
+    font-size: 21px;
+    line-height: 50px;
+    color: #fff;
+    margin-bottom: 55px;
+}
 .about__item{}
-.about__btn btn btn--long{}
+.about__btn{
+    font-family: "MuliExtBolt" , serif;
+    font-size: 21px;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 95px 20px 35px;
+    border: 6px solid #f8b231;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
