@@ -149,7 +149,9 @@
 .about__img{
     margin-top: 60px;
 }
-.about__content{}
+.about__content{
+    margin-left: 140px;
+}
 .about__title{
     font-family: "MuliExtBolt" , serif;
     font-size: 55px;
@@ -165,6 +167,7 @@
     line-height: 50px;
     color: #fff;
     margin-bottom: 55px;
+    
 }
 .about__item{}
 .about__btn{
