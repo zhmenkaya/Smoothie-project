@@ -249,7 +249,12 @@
     line-height: 40px;
     color: #f7ae3b;
 }
-.story__text{}
+.story__text{
+    font-family: "MuliRegul", serif;
+    font-size: 18px;
+    line-height: 35px;
+    color: #1e1e1e;
+}
 .story__btn btn btn--green
 .story__img-wrap{}
 .story__img{}
