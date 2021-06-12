@@ -239,3 +239,12 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
+
+.story{}
+.story__inner{}
+.story__content{}
+.stoty__title{}
+.story__text{}
+.story__btn btn btn--green
+.story__img-wrap{}
+.story__img{}
