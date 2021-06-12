@@ -243,7 +243,12 @@
 .story{}
 .story__inner{}
 .story__content{}
-.stoty__title{}
+.stoty__title{
+    font-family: "MuliExtBolt" , serif;
+    font-size: 50px;
+    line-height: 40px;
+    color: #f7ae3b;
+}
 .story__text{}
 .story__btn btn btn--green
 .story__img-wrap{}
