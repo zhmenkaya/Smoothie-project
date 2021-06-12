@@ -240,20 +240,32 @@
     -o-border-radius: 30px;
 }
 
-.story{}
-.story__inner{}
-.story__content{}
+.story{
+    border: 1px solid red;
+    height: 880px;
+    width: 1920px;
+}
+.story__inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.story__content{
+    width: 510px;
+    margin: 260px 0 490px 0;
+}
 .stoty__title{
     font-family: "MuliExtBolt" , serif;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
+    margin-bottom: 50px;
 }
 .story__text{
     font-family: "MuliRegul", serif;
     font-size: 18px;
     line-height: 35px;
     color: #1e1e1e;
+    margin-bottom: 65px;
 }
 .story__btn{
     padding: 20px 100px 20px 50px;
@@ -271,4 +283,7 @@
     -o-border-radius:30px;
 }
 .story__img-wrap{}
-.story__img{}
+.story__img{
+    padding: 115px 0px 160px 0;
+    
+}
