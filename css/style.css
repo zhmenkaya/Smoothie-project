@@ -184,7 +184,10 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
-.products{}
+.products{
+    font-family: "MuliExtBolt" , serif;
+    color: #fff;
+}
 .products__inner{
     display: flex;
 }
@@ -204,7 +207,13 @@
 #fourth-background{
     background-image: url(/image/img/orange-fon.png);
 }
-.product__img{}
-.product__caption{}
-.product__volume{}
+.product__img{
+    padding: 130px 175px 0px 175px;
+}
+.product__caption{
+    
+}
+.product__volume{
+
+}
 .product__btn btn btn--border-white{}
