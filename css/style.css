@@ -255,6 +255,20 @@
     line-height: 35px;
     color: #1e1e1e;
 }
-.story__btn btn btn--green
+.story__btn{
+    padding: 20px 100px 20px 50px;
+    font-family: "MuliExtBolt" , serif;
+    background-color: #0aa566;
+    width: 300px;
+    height: 80px;
+    color:#fff;
+    font-size: 21px;
+    text-decoration: none;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
 .story__img-wrap{}
 .story__img{}
