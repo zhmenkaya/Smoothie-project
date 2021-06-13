@@ -347,9 +347,17 @@
     color: #f7ae3b;
     font-size: 50px;
     line-height: 40px;
+    padding: 95px 0 65px 200px;
+}
+.blog__inner{
+    padding: 0 410px 195px 200px;
+    display:flex;
 }
 .blog__img{}
-.blog__article{}
+.blog__article{
+    margin: 135px 0 0 60px;
+    width: 560px;
+}
 .blog__preview{}
 .blog__subtitle{
     font-family: "MuliExtBolt" , serif;
@@ -357,17 +365,31 @@
     font-size: 30px;
     line-height: 40px;
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 .blog__date{
     font-family: "MuliRegul", serif;
     color: #1e1e1e;
     font-size: 16px;
     line-height: 35px;
+    padding-bottom: 50px;
 }
 .blog__text{
     font-family: "MuliRegul", serif;
     color: #1e1e1e;
     font-size: 18px;
     line-height: 35px;
+    padding-left: 60px;
 }
-.blog__text-link{}
+.blog__text-link{
+    font-family: "MuliRegul", serif;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.gallery{
+    display: flex;
+}
