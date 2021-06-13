@@ -339,7 +339,9 @@
 .testimonials__button-block{}
 .testimonials__btn{}
 
-.blog{}
+.blog{
+    width: 1920px;
+}
 .blog__title{
     font-family: "MuliExtBolt" , serif;
     color: #f7ae3b;
@@ -356,6 +358,16 @@
     line-height: 40px;
     text-transform: uppercase;
 }
-.blog__date{}
-.blog__text{}
+.blog__date{
+    font-family: "MuliRegul", serif;
+    color: #1e1e1e;
+    font-size: 16px;
+    line-height: 35px;
+}
+.blog__text{
+    font-family: "MuliRegul", serif;
+    color: #1e1e1e;
+    font-size: 18px;
+    line-height: 35px;
+}
 .blog__text-link{}
