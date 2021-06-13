@@ -356,7 +356,7 @@
 .blog__img{}
 .blog__article{
     margin: 135px 0 0 60px;
-    width: 560px;
+    width: 570px;
 }
 .blog__preview{}
 .blog__subtitle{
@@ -389,11 +389,23 @@
     line-height: 35px;
     text-decoration: none;
 }
-
-.instagram{}
-.instagram__link{}
+.instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.instagram__link{
+    font-family: "MuliExtBolt" , serif;
+    color: #0aa566;
+    font-size: 24px;
+    line-height: 40px;
+    text-decoration: none;
+    justify-content: center;
+}
 .gallery{
     display: flex;
 }
 .gallery__card{}
-.gallery__img{}
+.gallery__img{
+    padding-bottom:8px;
+}
