@@ -7,8 +7,10 @@
     src:url(/fonts/Muli-ExtraBold.woff)
 }
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 .header{
     background: no-repeat url(../image/img/main-img.png);
@@ -291,7 +293,8 @@
 .testimonials{
     width: 1920px;
     height: 720px;
-    background-color: #653318;
+    background-image:url(../image/img/testimonial-fon.png);
+    
 }
 .testimonials__title{
     font-family: "MuliExtBolt" , serif;
@@ -299,17 +302,39 @@
     line-height: 40px;
     color: #f7ae3b;
     text-align: center;
+    padding: 110px 0 131px 0;
+    
 }
-/*#title__love{
-    columns: #f2612d;
+.testimonials__orange-text{
+    color: #f2612d;
     text-transform: uppercase;
-}*/
+}
 .testimonials__slider{
     display: flex;
+    justify-content: center;
 }
-.testimonials__slide{}
-.testimonials__quote{}
-.testimonials__cite{}
-.testimonials__img{}
+.testimonials__slide{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials__quote{
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    width: 450px;
+    
+}
+.testimonials__cite{
+    color: #f7ae3b;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    width: 460px;
+}
+.testimonials__img{
+    width: 220px;
+}
 .testimonials__button-block{}
 .testimonials__btn{}
