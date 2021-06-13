@@ -390,6 +390,10 @@
     text-decoration: none;
 }
 
+.instagram{}
+.instagram__link{}
 .gallery{
     display: flex;
 }
+.gallery__card{}
+.gallery__img{}
