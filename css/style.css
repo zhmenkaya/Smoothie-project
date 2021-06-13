@@ -349,7 +349,13 @@
 .blog__img{}
 .blog__article{}
 .blog__preview{}
-.blog__subtitle{}
+.blog__subtitle{
+    font-family: "MuliExtBolt" , serif;
+    color: #f2612d;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
 .blog__date{}
 .blog__text{}
 .blog__text-link{}
