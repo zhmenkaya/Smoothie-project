@@ -340,7 +340,12 @@
 .testimonials__btn{}
 
 .blog{}
-.blog__title title{}
+.blog__title{
+    font-family: "MuliExtBolt" , serif;
+    color: #f7ae3b;
+    font-size: 50px;
+    line-height: 40px;
+}
 .blog__img{}
 .blog__article{}
 .blog__preview{}
