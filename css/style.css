@@ -411,6 +411,8 @@
 }
 .footer{
     width: 1920px;
+    display: flex;
+    flex-direction: column;
 }
 .footer__top{
     background-color:#f2ad39;
