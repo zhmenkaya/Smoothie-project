@@ -419,6 +419,11 @@
     display: flex;
     justify-content: space-evenly;
 }
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .footer__title{
     font-family: "MuliExtBolt" , serif;
     color: #fff;
