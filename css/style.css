@@ -409,3 +409,12 @@
 .gallery__img{
     padding-bottom:8px;
 }
+.footer{
+    width: 1920px;
+}
+.footer__top{
+    background-color:#f2ad39;
+}
+.footer__bottom{
+    background-color: #692f20;
+}
