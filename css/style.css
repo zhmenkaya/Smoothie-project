@@ -1,95 +1,139 @@
 @font-face{
-    font-family: "MuliBolt";
-    src: url(/fonts/Muli-Bold.ttf);
-    font-family: "MuliRegul";
-    src: url(/fonts/Muli-Regular.woff);
-    font-family: "MuliExtBolt";
-    src:url(/fonts/Muli-ExtraBold.woff)
+    font-family: "MuliBold";
+    src: url(/fonts/Muli-Bold.ttf) format("truetype");
+    font-style: normal;
 }
+@font-face{
+    font-family: "MuliRegul";
+    src: url(/fonts/Muli-Regular.woff) format("truetype");
+    font-style: normal;
+}
+@font-face{
+    font-family: "MuliExtBold";
+    src:url(/fonts/Muli-ExtraBold.woff) format("truetype");
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
+
 .header{
-    background: no-repeat url(../image/img/main-img.png);
-    width: 1920px;
-    height: 1080px;
+    height: 100vh;
+    background:  url(../image/img/main-img.png) no-repeat;
+    background-position: center;
+    background-size: cover;
 } 
 .header__top{
+    padding: 70px 100px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    
 }
 .menu{
     display: flex;
     flex-direction: row;
 }
-.menu__list{
-
+.menu__list{}
+.menu__item{
+    margin-right: 35px;
+}
+.menu__item:last-child{
+    margin-right: 0;
 }
 .menu__link{
     text-decoration: none;
-    font-family: "MuliBolt", serif;
+    font-family: "MuliBold", serif;
     color: #fff;
     font-size: 16px;
     line-height: 40px;
     text-transform: uppercase;
-    margin-right: 35px;
 }
-.header__right{
+.header__right-block{
+    /*width: 422px;*/
     display: flex;
+    align-items: center;
+}
+.header__personal{
+    margin-right: 135px;
 }
 .personal__list{
     display: flex;
 }
 .personal__item{
     list-style-type:none;
-    
-
+    margin-right: 45px;
+}
+.personal__item:last-child{
+    margin-right: 0;
 }
 .personal__counter{
     font-family: "MuliRegul" , serif;
-    /*text-decoration: none;*/
-    font-size: 10px;
-    line-height: 40px;
     color: #000;
+    font-size: 10px;
+    display: inline-block;    
+    min-width: 18px;
+    max-width: 18px;
+    height: 18px;
+    line-height: 1.5;
+    text-align: center;
+    background-color:#fff;
+    border-radius: 50%;   
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .social__list{
+    list-style-type:none;
     display: flex;
 }
-.social__item{   
-    padding: 5px 0 0 5px;
-    list-style-type:none;
-    width: 35px;
+.social__item{
+    margin-right: 10px;
+}
+.social__item:last-child{
+    margin-right: 0;
+}
+.social__link{
+    display: inline-block;
+    min-width: 35px;
+    max-width: 35px;
     height: 35px;
+    line-height: 2.3;
+    text-align: center;
     background-color: #fff;
-    border:1px solid #fff;
-    margin-right: 15px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
-.personal__img{
-    margin-right: 40px;
+.social__icon{
+
 }
-.social__icon{}
 
 .header__btn{
-    background-color: #0aa566;
+    
     width: 280px;
-    color:#fff;
+    height: 70px;
+}
+.btn{
     font-size: 24px;
     line-height: 40px;
-    border: 1px solid #0aa566;
+    color:#fff;
     border-radius:35%;
     -webkit-border-radius:35px;
     -moz-border-radius:35%;
     -ms-border-radius:35%;
     -o-border-radius:35%;
+}
+.btn--green{
+    background-color: #0aa566;
 }
 .header__content{
     display: flex;
@@ -102,7 +146,7 @@
 }
 .smoothies__top{}
 .smoothies__title{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     font-size: 50px;
     color: #f7ae3b;
     line-height: 40px;
@@ -133,7 +177,7 @@
     margin: 0 auto;
 }
 .smoothie__caption{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliBold" , serif;
     font-size: 25px;
     color: #f2612d;
     line-height: 40px;
@@ -155,7 +199,7 @@
     margin-left: 140px;
 }
 .about__title{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     font-size: 55px;
     line-height: 60px;
     color: #fff;
@@ -164,7 +208,7 @@
     color: #cae941;
 }
 .about__list{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     font-size: 21px;
     line-height: 50px;
     color: #fff;
@@ -173,7 +217,7 @@
 }
 .about__item{}
 .about__btn{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     font-size: 21px;
     line-height: 22px;
     color: #fff;
@@ -188,7 +232,7 @@
 }
 
 .products{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     color: #fff;
 }
 .products__inner{
@@ -230,7 +274,7 @@
     padding: 21px 120px 21px 35px;
     margin: 60px 130px 80px 160px;
     display: block;
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     color: #fff;
     width: 95px;
     border: 1px solid #fff;
@@ -256,7 +300,7 @@
     margin: 260px 0 490px 0;
 }
 .stoty__title{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
@@ -271,7 +315,7 @@
 }
 .story__btn{
     padding: 20px 100px 20px 50px;
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     background-color: #0aa566;
     width: 300px;
     height: 80px;
@@ -297,7 +341,7 @@
     
 }
 .testimonials__title{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
@@ -343,7 +387,7 @@
     width: 1920px;
 }
 .blog__title{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     color: #f7ae3b;
     font-size: 50px;
     line-height: 40px;
@@ -360,7 +404,7 @@
 }
 .blog__preview{}
 .blog__subtitle{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     color: #f2612d;
     font-size: 30px;
     line-height: 40px;
@@ -395,7 +439,7 @@
     justify-content: center;
 }
 .instagram__link{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     color: #0aa566;
     font-size: 24px;
     line-height: 40px;
@@ -425,7 +469,7 @@
     align-items: center;
 }
 .footer__title{
-    font-family: "MuliExtBolt" , serif;
+    font-family: "MuliExtBold" , serif;
     color: #fff;
     font-size: 26px;
     line-height: 40px;
@@ -435,14 +479,14 @@
     list-style-type:none;
 }
 .information__link{
-    font-family: "MuliBolt" , serif;
+    font-family: "MuliBold" , serif;
     color: #6d450c;
     font-size: 18px;
     line-height: 35px;
     text-decoration: none;
 }
 .payment__block{
-    width: 300px;
+    width: 50px;
     display: flex;
     flex-wrap: wrap;
 }
