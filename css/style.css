@@ -33,13 +33,11 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
 }
 .menu{
     display: flex;
     flex-direction: row;
 }
-.menu__list{}
 .menu__item{
     margin-right: 35px;
 }
@@ -113,12 +111,7 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.social__icon{
-
-}
-
 .header__btn{
-    
     width: 280px;
     height: 70px;
 }
@@ -140,8 +133,7 @@
     justify-content: center;
 }
 .smoothies{
-    width: 1920px;
-    height: 872px;
+    height: 100vh;
     border: 1px solid red;
 }
 .smoothies__top{}
