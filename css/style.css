@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .header{
@@ -157,20 +157,21 @@
 .smoothies__content{
     max-width: 1030px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-bottom: 115px;
 }
 .smoothies__card{
-    flex: 0 1 calc(100% / 4 - 15px);
+    flex: 0 1 calc(100% / 4 - 20px);
     min-height: 210px;
-    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 0px 8px -3px #f6edde, 0px 10px 8px -3px #f6edde;
 }
+
 .smoothie__img{
     display: block;
     margin: 0 auto;
@@ -235,10 +236,11 @@
 }
 .products__inner{
     display: flex;
+    flex: 1 0 25%;
 }
 .product{
-    width: 480px;
-    height: 720px;
+    /*min-width: 480px;
+    min-height: 720px;*/
 }
 #first-background{
     background-image: url(../image/img/brown-fon.png);
