@@ -111,6 +111,10 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.header__content{
+    display: flex;
+    justify-content: center;
+}
 .header__btn{
     width: 280px;
     height: 70px;
@@ -128,41 +132,44 @@
 .btn--green{
     background-color: #0aa566;
 }
-.header__content{
-    display: flex;
-    justify-content: center;
-}
+
+
 .smoothies{
     height: 100vh;
-    border: 1px solid red;
 }
-.smoothies__top{}
+.smoothies__top{
+    padding: 100px 500px 65px;
+    text-align: center;
+}
 .smoothies__title{
     font-family: "MuliExtBold" , serif;
     font-size: 50px;
     color: #f7ae3b;
     line-height: 40px;
-    text-align: center;
+    padding-bottom: 55px;
 }
 .smoothies__text{
-    width: 915px;
     font-family: "MuliRegul", serif;
     font-size: 18px;
     color: #1e1e1e;
     line-height: 35px;
-    text-align: center;
-    margin-left: 650px;
 }
 .smoothies__content{
-    width: 1000px;
+    max-width: 1030px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin-bottom: 115px;
 }
 .smoothies__card{
-    height: 180px;
-    width: 245px;
+    flex: 0 1 calc(100% / 4 - 15px);
+    min-height: 210px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .smoothie__img{
     display: block;
