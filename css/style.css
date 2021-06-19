@@ -1,16 +1,16 @@
 @font-face{
     font-family: "MuliBold";
-    src: url(/fonts/Muli-Bold.ttf) format("truetype");
+    src: url(../fonts/Muli-Bold.ttf) format("ttf");
     font-style: normal;
 }
 @font-face{
     font-family: "MuliRegul";
-    src: url(/fonts/Muli-Regular.woff) format("truetype");
+    src: url(../fonts/Muli-Regular.woff) format("woff");
     font-style: normal;
 }
 @font-face{
     font-family: "MuliExtBold";
-    src:url(/fonts/Muli-ExtraBold.woff) format("truetype");
+    src:url(../fonts/Muli-ExtraBold.woff) format("woff");
     font-style: normal;
 }
 
@@ -69,6 +69,9 @@
 }
 .personal__item:last-child{
     margin-right: 0;
+}
+.personal__link{
+    
 }
 .personal__counter{
     font-family: "MuliRegul" , serif;
@@ -134,9 +137,7 @@
 }
 
 
-.smoothies{
-    height: 100vh;
-}
+.smoothies{}
 .smoothies__top{
     padding: 100px 500px 65px;
     text-align: center;
@@ -163,7 +164,7 @@
     margin-bottom: 115px;
 }
 .smoothies__card{
-    flex: 0 1 calc(100% / 4 - 20px);
+    flex: 0 1 calc(100% / 4);
     min-height: 210px;
     display: flex;
     flex-direction: column;
@@ -270,7 +271,7 @@
     padding: 130px 175px 0px 175px;
 }
 .product__caption{
-
+    padding-top: 35px;
     font-size: 21px;
     line-height: 22px;
     text-align: center;
@@ -283,13 +284,12 @@
     text-align: center;
 }
 .product__btn{
-    padding: 21px 120px 21px 35px;
+    width: 205px;
+    height: 60px;
     margin: 60px 130px 80px 160px;
     display: block;
     font-family: "MuliExtBold" , serif;
     color: #fff;
-    width: 95px;
-    border: 1px solid #fff;
     background:rgba(128, 255, 0, 0);
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -297,11 +297,12 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
+.btn--border-white{
+    border: 1px solid #fff;
+}
 
 .story{
-    border: 1px solid red;
-    height: 880px;
-    width: 1920px;
+    height: 100vh;
 }
 .story__inner{
     display: flex;
@@ -347,8 +348,7 @@
 }
 
 .testimonials{
-    width: 1920px;
-    height: 720px;
+    height: 100vh;
     background-image:url(../image/img/testimonial-fon.png);
     
 }
@@ -396,7 +396,7 @@
 .testimonials__btn{}
 
 .blog{
-    width: 1920px;
+    height: 100vh;
 }
 .blog__title{
     font-family: "MuliExtBold" , serif;
@@ -466,7 +466,7 @@
     padding-bottom:8px;
 }
 .footer{
-    width: 1920px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -498,7 +498,7 @@
     text-decoration: none;
 }
 .payment__block{
-    width: 50px;
+    max-width: 400px;
     display: flex;
     flex-wrap: wrap;
 }
