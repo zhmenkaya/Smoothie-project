@@ -28,18 +28,17 @@
     background-size: cover;
 } 
 .header__top{
-    padding: 70px 100px 100px;
+    padding: 86px 100px 120px 100px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .menu{
     display: flex;
-    flex-direction: row;
 }
 .menu__item{
-    margin-right: 35px;
+    margin-right: 33px;
 }
 .menu__item:last-child{
     margin-right: 0;
@@ -52,17 +51,40 @@
     line-height: 40px;
     text-transform: uppercase;
 }
+.header__logo{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
 .header__right-block{
-    /*width: 422px;*/
     display: flex;
-    align-items: center;
+    margin-left:100px;
 }
 .header__personal{
     margin-right: 135px;
 }
 .personal__list{
     display: flex;
+    align-items: center;
+    margin-right: 135px;
+    position: relative;
 }
+.personal__list::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color:rgb(218, 35, 35);
+    opacity: 0.5;
+    position: absolute;
+    top:10px;
+    right: -100px;
+}    
 .personal__item{
     list-style-type:none;
     margin-right: 45px;
@@ -89,6 +111,8 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    position: absolute;
+    top:0;
 }
 .social__list{
     list-style-type:none;
@@ -121,6 +145,7 @@
 .header__btn{
     width: 280px;
     height: 70px;
+    align-items: center;
 }
 .btn{
     font-size: 24px;
@@ -498,13 +523,38 @@
     text-decoration: none;
 }
 .payment__block{
-    max-width: 400px;
+    max-width: 410px;
     display: flex;
     flex-wrap: wrap;
 }
 .payment__icon{
     padding-right: 50px;
+    padding-bottom: 25px;
 }
+.subscription__newsletter{
+    font-family: "MuliBold" , serif;
+    color: #6d450c;
+    font-size: 17px;
+    line-height: 35px;
+    min-width: 495px;
+    height: 51px;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
+
+.subscription__btn{
+    border:none;
+}
+
 .footer__bottom{
     background-color: #692f20;
+    text-align: center;
+    font-family: "MuliRegul", serif;
+    color: #af8a82;
+    font-size: 13px;
+    line-height: 35px;
 }
+
