@@ -249,11 +249,18 @@
     line-height: 50px;
     color: #fff;
     margin:55px 0;
+    position: relative;
 }
 .about__item{
-    list-style-type:none;
-    
+    list-style-type:none;   
 }
+.about__item::before{
+    content:url(../image/icon/1.png);
+    top:0;
+    left: 0;
+    padding-right: 20px;
+}
+
 .about__btn{
     width: 380px;
     height: 60px;
