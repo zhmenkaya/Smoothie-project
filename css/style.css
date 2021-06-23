@@ -312,6 +312,9 @@
 #fourth-background{
     background-image: url(../image/img/orange-fon.png);
 }
+.products__item{
+    position: relative;
+}
 .product__img{
     padding: 130px 175px 0px 175px;
 }
@@ -336,11 +339,21 @@
     font-family: "MuliExtBold" , serif;
     color: #fff;
     background:rgba(128, 255, 0, 0);
+    text-align: left;
+    padding-left: 35px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+}
+
+.product__btn::after{
+    content:url(../image/icon/white-arrow.png);
+    position:absolute;
+    top: 585px;
+    left: 290px;
+
 }
 .btn--border-white{
     border: 1px solid #fff;
@@ -356,6 +369,7 @@
 .story__content{
     width: 510px;
     margin: 260px 0 490px 0;
+    position:relative;
 }
 .stoty__title{
     font-family: "MuliExtBold" , serif;
@@ -386,7 +400,17 @@
     -ms-border-radius:30px;
     -o-border-radius:30px;
 }
-.story__img-wrap{}
+
+.story__btn::after{
+    content:url(../image/icon/arrow.png);
+    position:absolute;
+    top: 295px;
+    left:210px;
+}
+
+.story__img-wrap{
+    
+}
 .story__img{
     padding: 115px 0px 160px 0;
     
