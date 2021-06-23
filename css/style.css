@@ -28,7 +28,7 @@
     background-size: cover;
 } 
 .header__top{
-    padding: 86px 100px 120px 100px;
+    padding: 83px 87px 120px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,22 +67,21 @@
     margin-left:100px;
 }
 .header__personal{
-    margin-right: 135px;
+    margin-right: 120px;
 }
 .personal__list{
     display: flex;
     align-items: center;
-    margin-right: 135px;
     position: relative;
 }
 .personal__list::after{
     content: "";
     width: 50px;
     height: 2px;
-    background-color:rgb(218, 35, 35);
+    background-color:white;
     opacity: 0.5;
     position: absolute;
-    top:10px;
+    top:14px;
     right: -100px;
 }    
 .personal__item{
@@ -112,8 +111,10 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     position: absolute;
-    top:0;
+    top: -6px;
+    left: 153px;
 }
+
 .social__list{
     list-style-type:none;
     display: flex;
@@ -277,8 +278,8 @@
     flex: 1 0 25%;
 }
 .product{
-    /*min-width: 480px;
-    min-height: 720px;*/
+    width: 25%;
+    /* min-height: 720px; */
 }
 #first-background{
     background-image: url(../image/img/brown-fon.png);
@@ -486,7 +487,9 @@
 .gallery{
     display: flex;
 }
-.gallery__card{}
+.gallery__card{
+    width: 20%;
+}
 .gallery__img{
     padding-bottom:8px;
 }
@@ -549,6 +552,20 @@
     border:none;
 }
 
+.subscription__link{
+    display: inline-block;
+    min-width: 35px;
+    max-width: 35px;
+    height: 35px;
+    line-height: 2.3;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 .footer__bottom{
     background-color: #692f20;
     text-align: center;
@@ -556,5 +573,20 @@
     color: #af8a82;
     font-size: 13px;
     line-height: 35px;
+    position: relative;
+}
+.footer__btn-top{
+    width: 50px;
+    height: 50px;
+    background-color:#f2662f;
+    position: fixed;
+    bottom: 35px;
+    right: 100px;
+}
+.footer__btn-top::after{
+    content: url(../image/icon/arrow-up.png);
+    position: absolute;
+    top: 12px;
+    left: 19px;
 }
 
