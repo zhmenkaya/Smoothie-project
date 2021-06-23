@@ -224,7 +224,8 @@
 .about__content{
     margin-top: 100px;
     margin-left: 140px;
-    margin: 100px 300px 0 140px
+    margin: 100px 300px 0 140px;
+    position: relative;
 
 }
 .about__title{
@@ -232,6 +233,12 @@
     font-size: 55px;
     line-height: 60px;
     color: #fff;
+}
+.about__title::after{
+    content:url(../image/img/Line.png);
+    position: absolute;
+    top: 86px;
+    left: 71px;
 }
 .about__green-text{
     color: #cae941;
