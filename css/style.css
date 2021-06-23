@@ -277,7 +277,12 @@
     color: #fff;
     text-decoration: none;
     padding: 20px 95px 20px 35px;
-    /*margin-bottom: 90px;*/
+}
+.about__btn::after{
+    content: url(../image/icon/arrow.png);
+    position: absolute;
+    top: 630px;
+    left: 317px;
 }
 .btn--border-orange{
     border: 3px solid #f8b231;
