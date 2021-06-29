@@ -409,13 +409,18 @@
 }
 
 .story__img-wrap{
-    
+    position: relative;
 }
 .story__img{
     padding: 115px 0px 160px 0;
     
 }
-
+.story__img::before{
+    content:url(../image/img/Stamp.png);
+    position: absolute;
+    top:0;
+    left:0;
+}
 .testimonials{
     height: 100vh;
     background-image:url(../image/img/testimonial-fon.png);
