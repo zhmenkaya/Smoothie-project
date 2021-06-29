@@ -617,7 +617,13 @@
     padding-right: 50px;
     padding-bottom: 25px;
 }
+
+.subscription__form{
+    display: flex;
+    flex-direction: column;
+}
 .subscription__newsletter{
+    padding-left: 70px;
     font-family: "MuliBold" , serif;
     color: #6d450c;
     font-size: 17px;
@@ -629,25 +635,33 @@
     -moz-border-radius:30px;
     -ms-border-radius:30px;
     -o-border-radius:30px;
+    margin-bottom: 35px;
 }
-
+.subscription__list{
+    display: flex;
+}
 .subscription__btn{
     border:none;
-}
+    width:105px;
+    margin-left: 185px;
+    background-color: none;
 
+}
+.subscription__item{
+    list-style-type:none;
+    border: none;
+}
 .subscription__link{
+    margin-right: 20px;
     display: inline-block;
     min-width: 35px;
     max-width: 35px;
     height: 35px;
     line-height: 2.3;
     text-align: center;
-    background-color: #fff;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+}
+.subscription__link:last-child{
+    margin-right: none;
 }
 .footer__bottom{
     background-color: #692f20;
