@@ -196,9 +196,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 10px 0px 8px -3px #f6edde, 0px 10px 8px -3px #f6edde;
+    border: 1px solid red;
 }
-
 .smoothie__img{
     display: block;
     margin: 0 auto;
@@ -365,6 +364,7 @@
 .story__inner{
     display: flex;
     justify-content: space-evenly;
+    position: relative;
 }
 .story__content{
     width: 510px;
@@ -409,17 +409,17 @@
 }
 
 .story__img-wrap{
-    position: relative;
+    
 }
 .story__img{
     padding: 115px 0px 160px 0;
     
 }
-.story__img::before{
+.story__img-wrap::after{
     content:url(../image/img/Stamp.png);
     position: absolute;
-    top:0;
-    left:0;
+    top: 154px;
+    left: 819px;
 }
 .testimonials{
     height: 100vh;
