@@ -211,6 +211,7 @@
 .smoothie__img{
     display: block;
     margin: 0 auto;
+    margin-bottom: 25px;
 }
 .smoothie__caption{
     font-family: "MuliBold" , serif;
@@ -290,7 +291,7 @@
 .about__btn::after{
     content: url(../image/icon/arrow.png);
     position: absolute;
-    top: 630px;
+    top: 649px;
     left: 317px;
 }
 .btn--border-orange{
@@ -449,8 +450,8 @@
 .testimonials__title::after{
     content:url(../image/img/Dots.png);
     position: absolute;
-    top:0;
-    left: 0;
+    top: -83px;
+    left: 1413px;
 }
 .testimonials__orange-text{
     color: #f2612d;
@@ -479,15 +480,17 @@
     line-height: 40px;
     text-align: center;
     width: 460px;
+    
 }
 .testimonials__img{
     width: 220px;
+    margin-bottom: 100px;
 }
 .testimonials__button-block{}
 .testimonials__btn{
     background-image:url(../image/icon/arrow.png) no-repeat;
-    min-width: 200px;
-    min-height: 200px;
+    min-width:30px;
+    min-height: 30px;
     opacity: 0.2;
     border: none;
     margin-right: 92px;
@@ -558,6 +561,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 .instagram__link{
     font-family: "MuliExtBold" , serif;
@@ -565,7 +569,15 @@
     font-size: 24px;
     line-height: 40px;
     text-decoration: none;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.instagram__link::before{
+    content:url(../image/icon/instagram-green-icon.png);
+    position: absolute;
+    top: 7px;
+    left: 822px;
+
 }
 .gallery{
     display: flex;
