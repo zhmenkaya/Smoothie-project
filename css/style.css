@@ -206,7 +206,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .smoothie__img{
     display: block;
@@ -621,9 +621,10 @@
     text-decoration: none;
 }
 .payment__block{
-    max-width: 410px;
+    max-width: 390px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 90px;
 }
 .payment__icon{
     padding-right: 50px;
@@ -633,6 +634,7 @@
 .subscription__form{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .subscription__newsletter{
     padding-left: 70px;
@@ -642,6 +644,7 @@
     line-height: 35px;
     min-width: 495px;
     height: 51px;
+    border: none;
     border-radius:30px;
     -webkit-border-radius:30px;
     -moz-border-radius:30px;
@@ -649,15 +652,34 @@
     -o-border-radius:30px;
     margin-bottom: 35px;
 }
+.subscription__newsletter::before{
+    content: url(../image/icon/letter-icon.png);
+    position: absolute;
+    top:0;
+    left:0;
+}
 .subscription__list{
     display: flex;
+    justify-content: flex-end;
 }
 .subscription__btn{
+    font-family: "MuliExtBold" , serif;
+    color: #6d450c;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform:uppercase ;
     border:none;
-    width:105px;
+    width:110px;
     margin-left: 185px;
-    background-color: none;
+    background: none;
 
+}
+
+.subscription__btn::before{
+    content: url(../image/icon/arrow-down.png);
+    position: absolute;
+    top:100px;
+    left:100px;
 }
 .subscription__item{
     list-style-type:none;
