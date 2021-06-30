@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header{
@@ -223,7 +223,6 @@
 
 .about{
     background-color: #158273;
-    height: 100vh;
     display: flex;
     justify-content: space-evenly;
 }
@@ -291,7 +290,7 @@
 .about__btn::after{
     content: url(../image/icon/arrow.png);
     position: absolute;
-    top: 649px;
+    top: 630px;
     left: 317px;
 }
 .btn--border-orange{
@@ -369,9 +368,7 @@
     border: 1px solid #fff;
 }
 
-.story{
-    height: 100vh;
-}
+.story{}
 .story__inner{
     display: flex;
     justify-content: space-evenly;
@@ -433,10 +430,8 @@
     left: 819px;
 }
 .testimonials{
-    height: 100vh;
     background-image:url(../image/img/testimonial-fon.png);
     position: relative;
-    
 }
 .testimonials__title{
     font-family: "MuliExtBold" , serif;
@@ -499,9 +494,7 @@
     justify-content: center;
     align-items: center; */
 }
-.blog{
-    height: 100vh;
-}
+.blog{}
 .blog__title{
     font-family: "MuliExtBold" , serif;
     color: #f7ae3b;
@@ -589,7 +582,6 @@
     padding-bottom:8px;
 }
 .footer{
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -678,8 +670,8 @@
 .subscription__btn::before{
     content: url(../image/icon/arrow-down.png);
     position: absolute;
-    top:100px;
-    left:100px;
+    top:0px;
+    left:0px;
 }
 .subscription__item{
     list-style-type:none;
