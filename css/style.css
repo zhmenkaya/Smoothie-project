@@ -27,8 +27,13 @@
     background-position: center;
     background-size: cover;
 } 
+
+.header__inner{
+    max-width: 1720px;
+    margin: 0 auto;
+}
 .header__top{
-    padding: 83px 87px 120px 100px;
+    padding: 83px 0 120px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
