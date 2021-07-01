@@ -152,6 +152,7 @@
     font-size: 24px;
     line-height: 40px;
     color:#fff;
+    border: none;
     border-radius:35%;
     -webkit-border-radius:35px;
     -moz-border-radius:35%;
@@ -579,7 +580,8 @@
     width: 20%;
 }
 .gallery__img{
-    padding-bottom:8px;
+    padding-bottom:8px; 
+    max-width: 100%;
 }
 .footer{
     display: flex;
@@ -628,12 +630,9 @@
     flex-direction: column;
     position: relative;
 }
-.subscription__newsletter{
+
+.subscription__newsletter {
     padding-left: 70px;
-    font-family: "MuliBold" , serif;
-    color: #6d450c;
-    font-size: 17px;
-    line-height: 35px;
     min-width: 495px;
     height: 51px;
     border: none;
@@ -643,6 +642,11 @@
     -ms-border-radius:30px;
     -o-border-radius:30px;
     margin-bottom: 35px;
+}
+.subscription__newsletter::placeholder{
+    color: #6d450c;
+    font-size: 17px;
+    line-height: 35px;
 }
 .subscription__newsletter::before{
     content: url(../image/icon/letter-icon.png);
