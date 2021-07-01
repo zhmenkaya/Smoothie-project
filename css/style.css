@@ -624,15 +624,22 @@
     padding-right: 50px;
     padding-bottom: 25px;
 }
-
+.footer__subscription{
+} 
 .subscription__form{
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
+.subscription__newsletter-wrap:after{
+    content: url(../image/icon/letter-icon.png);
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
 .subscription__newsletter {
-    padding-left: 70px;
+    padding-left: 65px;
     min-width: 495px;
     height: 51px;
     border: none;
@@ -644,15 +651,10 @@
     margin-bottom: 35px;
 }
 .subscription__newsletter::placeholder{
+    font-family: "MuliExtBold" , sans-serif;
     color: #6d450c;
     font-size: 17px;
     line-height: 35px;
-}
-.subscription__newsletter::before{
-    content: url(../image/icon/letter-icon.png);
-    position: absolute;
-    top:0;
-    left:0;
 }
 .subscription__list{
     display: flex;
@@ -668,15 +670,14 @@
     width:110px;
     margin-left: 185px;
     background: none;
-
 }
 
-.subscription__btn::before{
+/* .subscription__btn::before{
     content: url(../image/icon/arrow-down.png);
     position: absolute;
     top:0px;
     left:0px;
-}
+} */
 .subscription__item{
     list-style-type:none;
     border: none;
@@ -715,12 +716,12 @@
     right: 100px;
 }
 
-/* .footer__btn-top::after{
+.footer__btn-top::before{
     content: url(../image/icon/arrow-up.png);
     position: absolute;
     top: 12px;
     left: 19px;
-} */
+}
 .footer__btn-top::after{
     content:"Go top";
     font-family: "MuliBold" , sans-serif;
