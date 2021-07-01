@@ -2,16 +2,19 @@
     font-family: "MuliBold";
     src: url(../fonts/Muli-Bold.ttf) format("ttf");
     font-style: normal;
+    font-weight: 700;
 }
 @font-face{
     font-family: "MuliRegul";
-    src: url(../fonts/Muli-Regular.woff) format("woff");
+    src: url(../fonts/Muli-Regular.ttf) format("ttf");
     font-style: normal;
+    font-weight: 400;
 }
 @font-face{
     font-family: "MuliExtBold";
-    src:url(../fonts/Muli-ExtraBold.woff) format("woff");
+    src: url(../fonts/Muli-ExtraBold.ttf) format("ttf");
     font-style: normal;
+    font-weight: 800;
 }
 
 *{
@@ -33,10 +36,10 @@
     margin: 0 auto;
 }
 .header__top{
-    padding: 83px 0 120px 0;
+    padding: 86px 0 120px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:baseline;
     position: relative;
 }
 .menu{
@@ -51,6 +54,7 @@
 .menu__link{
     text-decoration: none;
     font-family: "MuliBold", sans-serif;
+    font-weight: 700;
     color: #fff;
     font-size: 16px;
     line-height: 40px;
@@ -101,6 +105,7 @@
 }
 .personal__counter{
     font-family: "MuliRegul" , sans-serif;
+    font-weight: 400;
     color: #000;
     font-size: 10px;
     display: inline-block;    
@@ -149,11 +154,12 @@
     justify-content: center;
 }
 .header__btn{
-    width: 280px;
+    width: 290px;
     height: 70px;
-    align-items: center;
 }
 .btn{
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 700;
     font-size: 24px;
     line-height: 40px;
     color:#fff;
@@ -186,6 +192,7 @@
 }
 .smoothies__title{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     font-size: 50px;
     color: #f7ae3b;
     line-height: 40px;
@@ -193,6 +200,7 @@
 }
 .smoothies__text{
     font-family: "MuliRegul", sans-serif;
+    font-weight: 400;
     font-size: 18px;
     color: #1e1e1e;
     line-height: 35px;
@@ -221,6 +229,7 @@
 }
 .smoothie__caption{
     font-family: "MuliBold" , sans-serif;
+    font-weight: 700;
     font-size: 25px;
     color: #f2612d;
     line-height: 40px;
@@ -245,6 +254,7 @@
 }
 .about__title{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     font-size: 55px;
     line-height: 60px;
     color: #fff;
@@ -260,6 +270,7 @@
 }
 .about__list{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     font-size: 21px;
     line-height: 50px;
     color: #fff;
@@ -287,6 +298,7 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     font-size: 21px;
     line-height: 22px;
     color: #fff;
@@ -305,6 +317,7 @@
 
 .products{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     color: #fff;
 }
 .products__inner{
@@ -342,6 +355,7 @@
 }
 .product__volume{
     font-family: "MuliRegul", sans-serif;
+    font-weight: 400;
     font-size: 21px;
     line-height: 22px;
     display: block;
@@ -353,6 +367,7 @@
     height: 65px;
     display: block;
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     color: #fff;
     background:rgba(128, 255, 0, 0);
     text-align: left;
@@ -388,6 +403,7 @@
 }
 .stoty__title{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
@@ -395,6 +411,7 @@
 }
 .story__text{
     font-family: "MuliRegul", sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 35px;
     color: #1e1e1e;
@@ -403,6 +420,7 @@
 .story__btn{
     padding: 20px 100px 20px 50px;
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     background-color: #0aa566;
     width: 300px;
     height: 80px;
@@ -442,6 +460,7 @@
 }
 .testimonials__title{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
@@ -515,6 +534,7 @@
 .blog{}
 .blog__title{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     color: #f7ae3b;
     font-size: 50px;
     line-height: 40px;
@@ -534,6 +554,7 @@
 }
 .blog__subtitle{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     color: #f2612d;
     font-size: 30px;
     line-height: 40px;
@@ -548,6 +569,7 @@
 }
 .blog__date{
     font-family: "MuliRegul", sans-serif;
+    font-weight: 400;
     color: #1e1e1e;
     font-size: 16px;
     line-height: 35px;
@@ -555,6 +577,7 @@
 }
 .blog__text{
     font-family: "MuliRegul", sans-serif;
+    font-weight: 400;
     color: #1e1e1e;
     font-size: 18px;
     line-height: 35px;
@@ -562,6 +585,7 @@
 }
 .blog__text-link{
     font-family: "MuliRegul", sans-serif;
+    font-weight: 400;
     color: #1e1e1e;
     font-size: 18px;
     font-weight: 900;
@@ -576,6 +600,7 @@
 }
 .instagram__link{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     color: #0aa566;
     font-size: 24px;
     line-height: 40px;
@@ -616,6 +641,7 @@
 }
 .footer__title{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     color: #fff;
     font-size: 26px;
     line-height: 40px;
@@ -626,6 +652,7 @@
 }
 .information__link{
     font-family: "MuliBold" , sans-serif;
+    font-weight: 700;
     color: #6d450c;
     font-size: 18px;
     line-height: 35px;
@@ -676,6 +703,7 @@
 }
 .subscription__newsletter::placeholder{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     color: #6d450c;
     font-size: 17px;
     line-height: 35px;
@@ -687,6 +715,7 @@
 
 .subscription__btn{
     font-family: "MuliExtBold" , sans-serif;
+    font-weight: 800;
     color: #6d450c;
     font-size: 18px;
     line-height: 40px;
@@ -750,6 +779,7 @@
 .footer__btn-top::after{
     content:"Go top";
     font-family: "MuliBold" , sans-serif;
+    font-weight: 700;
     font-size: 16px;
     line-height: 35px;
     color:#fff;
