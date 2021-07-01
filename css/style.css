@@ -45,7 +45,7 @@
 }
 .menu__link{
     text-decoration: none;
-    font-family: "MuliBold", serif;
+    font-family: "MuliBold", sans-serif;
     color: #fff;
     font-size: 16px;
     line-height: 40px;
@@ -95,7 +95,7 @@
     
 }
 .personal__counter{
-    font-family: "MuliRegul" , serif;
+    font-family: "MuliRegul" , sans-serif;
     color: #000;
     font-size: 10px;
     display: inline-block;    
@@ -180,14 +180,14 @@
     text-align: center;
 }
 .smoothies__title{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     font-size: 50px;
     color: #f7ae3b;
     line-height: 40px;
     margin-bottom: 55px;
 }
 .smoothies__text{
-    font-family: "MuliRegul", serif;
+    font-family: "MuliRegul", sans-serif;
     font-size: 18px;
     color: #1e1e1e;
     line-height: 35px;
@@ -215,7 +215,7 @@
     margin-bottom: 25px;
 }
 .smoothie__caption{
-    font-family: "MuliBold" , serif;
+    font-family: "MuliBold" , sans-serif;
     font-size: 25px;
     color: #f2612d;
     line-height: 40px;
@@ -239,7 +239,7 @@
 
 }
 .about__title{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     font-size: 55px;
     line-height: 60px;
     color: #fff;
@@ -254,7 +254,7 @@
     color: #cae941;
 }
 .about__list{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     font-size: 21px;
     line-height: 50px;
     color: #fff;
@@ -281,7 +281,7 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     font-size: 21px;
     line-height: 22px;
     color: #fff;
@@ -299,7 +299,7 @@
 }
 
 .products{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     color: #fff;
 }
 .products__inner{
@@ -335,7 +335,7 @@
     text-align: center;
 }
 .product__volume{
-    font-family: "MuliRegul", serif;
+    font-family: "MuliRegul", sans-serif;
     font-size: 21px;
     line-height: 22px;
     display: block;
@@ -346,7 +346,7 @@
     height: 60px;
     margin: 60px 130px 80px 160px;
     display: block;
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     color: #fff;
     background:rgba(128, 255, 0, 0);
     text-align: left;
@@ -381,14 +381,14 @@
     position:relative;
 }
 .stoty__title{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
     margin-bottom: 50px;
 }
 .story__text{
-    font-family: "MuliRegul", serif;
+    font-family: "MuliRegul", sans-serif;
     font-size: 18px;
     line-height: 35px;
     color: #1e1e1e;
@@ -396,7 +396,7 @@
 }
 .story__btn{
     padding: 20px 100px 20px 50px;
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     background-color: #0aa566;
     width: 300px;
     height: 80px;
@@ -435,7 +435,7 @@
     position: relative;
 }
 .testimonials__title{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
@@ -497,7 +497,7 @@
 }
 .blog{}
 .blog__title{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     color: #f7ae3b;
     font-size: 50px;
     line-height: 40px;
@@ -516,7 +516,7 @@
     position: relative;
 }
 .blog__subtitle{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     color: #f2612d;
     font-size: 30px;
     line-height: 40px;
@@ -530,21 +530,21 @@
     left: -64px;
 }
 .blog__date{
-    font-family: "MuliRegul", serif;
+    font-family: "MuliRegul", sans-serif;
     color: #1e1e1e;
     font-size: 16px;
     line-height: 35px;
     padding-bottom: 50px;
 }
 .blog__text{
-    font-family: "MuliRegul", serif;
+    font-family: "MuliRegul", sans-serif;
     color: #1e1e1e;
     font-size: 18px;
     line-height: 35px;
     padding-left: 60px;
 }
 .blog__text-link{
-    font-family: "MuliRegul", serif;
+    font-family: "MuliRegul", sans-serif;
     color: #1e1e1e;
     font-size: 18px;
     font-weight: 900;
@@ -558,7 +558,7 @@
     position: relative;
 }
 .instagram__link{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     color: #0aa566;
     font-size: 24px;
     line-height: 40px;
@@ -598,7 +598,7 @@
     align-items: center;
 }
 .footer__title{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     color: #fff;
     font-size: 26px;
     line-height: 40px;
@@ -608,7 +608,7 @@
     list-style-type:none;
 }
 .information__link{
-    font-family: "MuliBold" , serif;
+    font-family: "MuliBold" , sans-serif;
     color: #6d450c;
     font-size: 18px;
     line-height: 35px;
@@ -659,7 +659,7 @@
     justify-content: flex-end;
 }
 .subscription__btn{
-    font-family: "MuliExtBold" , serif;
+    font-family: "MuliExtBold" , sans-serif;
     color: #6d450c;
     font-size: 18px;
     line-height: 40px;
@@ -694,12 +694,16 @@
     margin-right: none;
 }
 .footer__bottom{
+    min-height: 60px;
     background-color: #692f20;
     text-align: center;
-    font-family: "MuliRegul", serif;
+    font-family: "MuliRegul", sans-serif;
     color: #af8a82;
     font-size: 13px;
     line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 .footer__btn-top{
@@ -707,13 +711,23 @@
     height: 50px;
     background-color:#f2662f;
     position: fixed;
-    bottom: 35px;
+    bottom: 38px;
     right: 100px;
 }
-.footer__btn-top::after{
+
+/* .footer__btn-top::after{
     content: url(../image/icon/arrow-up.png);
     position: absolute;
     top: 12px;
     left: 19px;
+} */
+.footer__btn-top::after{
+    content:"Go top";
+    font-family: "MuliBold" , sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    color:#fff;
+    position: absolute;
+    top: 43px;
+    left: -46px;
 }
-
