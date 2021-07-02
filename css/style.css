@@ -529,8 +529,8 @@
 .testimonials__title::after{
     content:url(../image/img/Dots.png);
     position: absolute;
-    top: -83px;
-    left: 1413px;
+    top: -79px;
+    left: 1452px;
 }
 .testimonials__orange-text{
     color: #f2612d;
@@ -555,8 +555,14 @@
     letter-spacing: 1px;
     text-align: center;
     margin-bottom:17px;
-    
 }
+/* .testimonials__quote::before{
+    content: "Sarah A";
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 600;
+    color:#521905;
+    font-size: 200px;
+} */
 .testimonials__cite{
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 400;
@@ -567,30 +573,29 @@
 }
 .testimonials__img{
     width: 220px;
-    margin-bottom: 100px;
+    margin-bottom: 117px;
 }
 .testimonials__button-block{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    max-width: 155px;
+    margin: 0 auto;
+    display: flex;    
 }
 #testimonials__btn-left{
-    transform: rotate(180deg) translateY(15px);
-    -webkit-transform: rotate(180deg) translateY(15px);
-    -moz-transform: rotate(180deg) translateY(15px);
-    -ms-transform: rotate(180deg) translateY(15px);
-    -o-transform: rotate(180deg) translateY(15px);
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
 }
 .testimonials__btn{
     background-color: #6a331f;
     background-image:url(../image/icon/arrow.png);
     background-repeat: no-repeat;
-    min-width:30px;
-    min-height: 30px;
+    min-width:35px;
+    min-height: 18px;
     border: none;
     text-align: center;
-    margin-right: 92px;
+    margin-right: 99px;
     margin-bottom: 80px;
 }
 .blog{}
