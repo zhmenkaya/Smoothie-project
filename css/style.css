@@ -70,13 +70,16 @@
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
+.logo__link{
+    display: block;
+}
 
 .header__right-block{
     display: flex;
     margin-left:100px;
 }
 .header__personal{
-    margin-right: 120px;
+    margin-right: 130px;
 }
 .personal__list{
     display: flex;
@@ -164,18 +167,20 @@
     line-height: 40px;
     color:#fff;
     border: none;
+    text-align: start;
     border-radius:35%;
     -webkit-border-radius:35px;
     -moz-border-radius:35%;
     -ms-border-radius:35%;
     -o-border-radius:35%;
+    padding-left: 50px;
 }
 .btn--green{
     background-color: #0aa566;
 }
 .btn--green::after{
     content:url(../image/icon/arrow.png);
-    margin-left: 20px;
+    margin-left: 52px;
 }
 .btn--green:hover{
     transform: translateX(10px);
@@ -466,7 +471,7 @@
     margin-bottom: 47px;
 }
 .story__btn{
-    padding-left: 33px;
+    padding-left: 46px;
     display: block;
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 600;
@@ -488,8 +493,8 @@
 .story__btn::after{
     content:url(../image/icon/arrow.png);
     position:absolute;
-    top: 3px;
-    left: 222px;
+    top: 2px;
+    left: 191px;
 }
 
 .story__img-wrap{
@@ -512,12 +517,13 @@
 }
 .testimonials__title{
     font-family: "MuliExtBold" , sans-serif;
-    font-weight: 800;
-    font-size: 50px;
+    font-weight: 550;
+    font-size: 46px;
     line-height: 40px;
     color: #f7ae3b;
     text-align: center;
-    padding: 110px 0 131px 0;
+    padding-top: 120px;
+    margin-bottom: 130px;
     
 }
 .testimonials__title::after{
@@ -531,29 +537,33 @@
     text-transform: uppercase;
 }
 .testimonials__slider{
+    max-width: 749px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
 }
 .testimonials__slide{
-    padding-top: 50px;
+    margin: 51px 63px 0 0;
     display: flex;
     flex-direction: column;
 }
 .testimonials__quote{
-    color: #fff;
-    font-size: 18px;
-    line-height: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #e9e1df;
+    font-size: 17px;
+    line-height: 36px;
+    letter-spacing: 1px;
     text-align: center;
-    width: 450px;
+    margin-bottom:17px;
     
 }
 .testimonials__cite{
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 400;
     color: #f7ae3b;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
     text-align: center;
-    width: 460px;
-    
 }
 .testimonials__img{
     width: 220px;
