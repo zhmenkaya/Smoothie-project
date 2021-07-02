@@ -437,22 +437,24 @@
 
 .story{}
 .story__inner{
+    max-width:1310px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
 }
 .story__content{
-    width: 510px;
-    margin: 260px 0 490px 0;
-    position:relative;
+    max-width: 524px;
+    margin: 260px 200px 0 0;
+    
 }
 .stoty__title{
     font-family: "MuliExtBold" , sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 50px;
     line-height: 40px;
     color: #f7ae3b;
-    margin-bottom: 50px;
+    margin-bottom: 44px;
 }
 .story__text{
     font-family: "MuliRegul", sans-serif;
@@ -460,45 +462,50 @@
     font-size: 18px;
     line-height: 35px;
     color: #1e1e1e;
-    margin-bottom: 65px;
+    letter-spacing: 0.5px;
+    margin-bottom: 47px;
 }
 .story__btn{
-    padding: 20px 100px 20px 50px;
+    padding-left: 33px;
+    display: block;
     font-family: "MuliExtBold" , sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     background-color: #0aa566;
-    width: 300px;
-    height: 80px;
+    width: 313px;
+    height: 59px;
     color:#fff;
     font-size: 21px;
+    line-height: 60px;
     text-decoration: none;
     border-radius:30px;
     -webkit-border-radius:30px;
     -moz-border-radius:30px;
     -ms-border-radius:30px;
     -o-border-radius:30px;
+    position:relative;
 }
 
 .story__btn::after{
     content:url(../image/icon/arrow.png);
     position:absolute;
-    top: 295px;
-    left:210px;
+    top: 3px;
+    left: 222px;
 }
 
 .story__img-wrap{
-    
+    margin: 120px 0 155px;
 }
 .story__img{
-    margin: 115px 0px 0 0;
+    max-width: 100%;
     
 }
 .story__img-wrap::after{
     content:url(../image/img/Stamp.png);
     position: absolute;
-    top: 154px;
-    left: 819px;
+    top: 143px;
+    left: 564px
 }
+
 .testimonials{
     background-color:#6a331f;
     position: relative;
