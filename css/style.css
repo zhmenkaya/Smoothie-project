@@ -695,7 +695,7 @@
     font-size: 24px;
     text-decoration: none;
     padding-left: 53px;
-    margin: 0 auto 47px;
+    margin: 0 auto 43px;
     position: relative;
 }
 .instagram__link::before{
@@ -721,15 +721,14 @@
     width: 27px;
     /* border:2px solid black; */
     position: absolute;
-    bottom: 23px;
-    right: 64px;    
+    bottom: 24px;
+    right: 18px;    
 }
 .gallery__img{ 
     width: 100%;
     
 }
 .footer{
-    border:2px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -744,12 +743,10 @@
     justify-content: space-between;
 }
 .footer__logo{
-    width: 25%;
+    width: 30%;
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 12px;
-    /* margin-right: 295px;  */
+    justify-content: flex-start;
+    margin-top: 130px;
 }
 .footer__title{
     font-family: "MuliExtBold" , sans-serif;
@@ -757,17 +754,17 @@
     color: #fff;
     font-size: 26px;
     line-height: 40px;
-    margin: 65px 0 28px;
+    margin: 67px 0 23px;
 }
 
 .footer__information{
-    width: 25%;
+    width: 18%;
 }
 .footer__payment{
-    width: 25%;
+    width: 24%;
 }
 .footer__subscription{
-    width: 25%;
+    width: 28%;
 }
 
 .information__item{
@@ -782,13 +779,13 @@
     text-decoration: none;
 }
 .payment__block{
-    
+    width: 336px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-bottom: 65px;
 }
 .payment__icon{
-    min-height: 25px;
+    /* min-height: 25px; */
     padding-right: 24px;
     margin-bottom: 25px;
 } 
@@ -801,18 +798,18 @@
 .subscription__newsletter-wrap::before{
     content: url(../image/icon/letter-icon.png);
     position: absolute;
-    top: 15px;
-    left: 25px;
+    top: 20px;
+    left: 23px;
 }
 .subscription__newsletter-wrap::after{
     content: url(../image/icon/arrow-down.png);
     position: absolute;
-    top: 67px;
-    left: 127px;
+    top: 73px;
+    left: 120px;
 }
 
 .subscription__newsletter {
-    padding-left: 65px;
+    padding-left: 62px;
     min-width: 497px;
     height: 59px;
     border: none;
@@ -828,7 +825,7 @@
     font-weight: 500;
     color: #6d450c;
     font-size: 17px;
-    line-height: 35px;
+    line-height: 37px;
 }
 .subscription__list{
     display: flex;
@@ -837,14 +834,14 @@
 
 .subscription__btn{
     font-family: "MuliExtBold" , sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     color: #6d450c;
     font-size: 18px;
     line-height: 40px;
     text-transform:uppercase ;
     border:none;
     width:120px;
-    margin-left: 185px;
+    margin-left: 176px;
     background: none;
 }
 
@@ -872,7 +869,7 @@
     font-family: "MuliRegul", sans-serif;
     color: #af8a82;
     font-size: 13px;
-    line-height: 35px;
+    line-height: 66px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -884,13 +881,13 @@
     background-color:#f2662f;
     position: fixed;
     bottom: 38px;
-    right: 100px;
+    right: 86px;
 }
 
 .footer__btn-top::before{
     content: url(../image/icon/arrow-up.png);
     position: absolute;
-    top: 12px;
+    top: 3px;
     left: 19px;
 }
 .footer__btn-top::after{
@@ -901,6 +898,6 @@
     line-height: 35px;
     color:#fff;
     position: absolute;
-    top: 43px;
-    left: -46px;
+    top: 42px;
+    left: -61px;
 }
