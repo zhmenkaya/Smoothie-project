@@ -555,14 +555,22 @@
     letter-spacing: 1px;
     text-align: center;
     margin-bottom:17px;
+    position: relative;
+    
 }
-/* .testimonials__quote::before{
+.testimonials__quote::before{
     content: "Sarah A";
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 600;
     color:#521905;
-    font-size: 200px;
-} */
+    width: 850px;
+    font-size: 203px;
+    position: absolute;
+    bottom: 89%;
+    left: -41%;
+    opacity: 0.5;
+    z-index: 1;
+}
 .testimonials__cite{
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 400;
@@ -574,6 +582,7 @@
 .testimonials__img{
     width: 220px;
     margin-bottom: 117px;
+    z-index: 3;
 }
 .testimonials__button-block{
     max-width: 155px;
