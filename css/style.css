@@ -616,6 +616,7 @@
 }
 .blog__img-wrap{
     margin-right: 60px;
+    margin-bottom: 197px;
 }
 .blog__img{
     max-width: 100%;
@@ -648,15 +649,17 @@
     color: #1e1e1e;
     font-size: 16px;
     line-height: 35px;
-    margin-bottom: 50px;
+    
 }
 .blog__text{
     font-family: "MuliRegul", sans-serif;
     font-weight: 400;
     color: #1e1e1e;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 35px;
-    padding-left: 60px;
+    letter-spacing: 1px;
+    padding-left: 64px;
+    margin-top: 26px;
 }
 .blog__text-link{
     font-family: "MuliRegul", sans-serif;
@@ -672,23 +675,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
 }
 .instagram__link{
     font-family: "MuliExtBold" , sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     color: #0aa566;
     font-size: 24px;
-    line-height: 40px;
     text-decoration: none;
-    text-align: center;
-    margin-bottom: 45px;
+    padding-left: 53px;
+    margin: 0 auto 47px;
+    position: relative;
 }
 .instagram__link::before{
     content:url(../image/icon/instagram-green-icon.png);
     position: absolute;
-    top: 7px;
-    left: 822px;
+    top: 4px;
+    left: 20px;
 
 }
 .gallery{
@@ -696,17 +698,36 @@
 }
 .gallery__card{
     width: 20%;
+    margin-bottom: 8px;
+    position: relative; 
 }
-.gallery__img{
-    padding-bottom:8px; 
+.gallery__card::after{
+    content:"";
+    display: block;
+    background-image:url(../image/icon/instagram-white-icon.png);
+    height: 27px;
+    width: 27px;
+    /* border:2px solid black; */
+    position: absolute;
+    bottom: 23px;
+    right: 64px;    
+}
+.gallery__img{ 
     max-width: 100%;
+    
 }
 .footer{
     display: flex;
     flex-direction: column;
 }
+
 .footer__top{
     background-color:#f2ad39;
+    
+    
+}
+.footer__inner{
+    max-width: 1720px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -797,17 +818,12 @@
     line-height: 40px;
     text-transform:uppercase ;
     border:none;
-    width:110px;
+    width:120px;
     margin-left: 185px;
     background: none;
 }
 
-/* .subscription__btn::before{
-    content: url(../image/icon/arrow-down.png);
-    position: absolute;
-    top:0px;
-    left:0px;
-} */
+
 .subscription__item{
     list-style-type:none;
     border: none;
