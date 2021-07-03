@@ -14,7 +14,7 @@
     font-family: "MuliExtBold";
     src: url(../fonts/Muli-ExtraBold.ttf) format("ttf");
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 *{
@@ -717,33 +717,50 @@
     
 }
 .footer{
+    border:2px solid red;
     display: flex;
     flex-direction: column;
 }
 
 .footer__top{
-    background-color:#f2ad39;
-    
-    
+    background-color:#f2ad39;  
 }
 .footer__inner{
-    max-width: 1720px;
+    max-width: 1735px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .footer__logo{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;*/
+    align-items: center; 
+    /* margin-top: 80px; */
+    /* margin-right: 295px; */
 }
 .footer__title{
     font-family: "MuliExtBold" , sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     color: #fff;
     font-size: 26px;
     line-height: 40px;
-    padding: 70px 0 50px 0;
+    margin: 65px 0 28px;
 }
+.footer__wrap{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__information{
+    max-width: 170px;
+}
+.footer__payment{
+    max-width: 307px;
+}
+.footer__subscription{
+    max-width: 500px;
+}
+
 .information__item{
     list-style-type:none;
 }
@@ -756,16 +773,15 @@
     text-decoration: none;
 }
 .payment__block{
-    max-width: 390px;
+    
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 .payment__icon{
-    padding-right: 50px;
-    padding-bottom: 25px;
-}
-.footer__subscription{
+    min-height: 25px;
+    padding-right: 24px;
+    margin-bottom: 25px;
 } 
 .subscription__form{
     display: flex;
@@ -788,19 +804,19 @@
 
 .subscription__newsletter {
     padding-left: 65px;
-    min-width: 495px;
-    height: 51px;
+    min-width: 497px;
+    height: 59px;
     border: none;
     border-radius:30px;
     -webkit-border-radius:30px;
     -moz-border-radius:30px;
     -ms-border-radius:30px;
     -o-border-radius:30px;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 .subscription__newsletter::placeholder{
-    font-family: "MuliExtBold" , sans-serif;
-    font-weight: 800;
+    font-family: "MuliBold" , sans-serif;
+    font-weight: 500;
     color: #6d450c;
     font-size: 17px;
     line-height: 35px;
