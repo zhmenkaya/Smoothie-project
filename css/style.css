@@ -408,10 +408,12 @@
     letter-spacing: 1.6px;
     z-index: 0;
 }
+
 .products__inner{
     display: flex;
     border:none;
 }
+
 .product{
     display: flex;
     flex-direction: column;
@@ -420,15 +422,19 @@
     width: 25%;
     position: relative;
 }
+
 .product--brown-background{
     background-color:#672e19;
 }
+
 .product--green-background{
     background-color: #178671;
 }
+
 .product--yellow-background{
     background-color: #fbae37;
 }
+
 .product--orange-background{
     background-color: #c7441a;
 }
@@ -436,12 +442,14 @@
 .product__img{
     margin-bottom: 27px;
 }
+
 .product__caption{
     font-size: 21px;
     line-height: 22px;
     text-align: center;
     margin-bottom: 15px;
 }
+
 .product__volume{
     font-family: "MuliRegul", sans-serif;
     font-weight: 200;
@@ -451,6 +459,7 @@
     text-align: center;
     margin-bottom: 56px;
 }
+
 .product__btn{
     width: 205px;
     height: 60px;
@@ -478,6 +487,7 @@
     left: 276px;
 
 }
+
 .btn--border-white{
     border: 1px solid #fff;
 }
