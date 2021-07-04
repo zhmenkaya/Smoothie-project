@@ -217,6 +217,7 @@
 .smoothies__top{    
     text-align: center;
 }
+
 .smoothies__title{
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 700;
@@ -225,6 +226,7 @@
     line-height: 40px;
     margin: 100px 0 40px;
 }
+
 .smoothies__text{
     max-width: 880px;
     font-family: "MuliRegul", sans-serif;
@@ -234,6 +236,7 @@
     line-height: 35px;
     margin: 0 auto 65px;
 }
+
 .smoothies__content{
     max-width: 1030px;
     display: flex;
@@ -242,6 +245,7 @@
     margin: 0 auto;
     margin-bottom: 115px;
 }
+
 .smoothies__card{
     flex: 0 1 calc(100% / 4);
     min-height: 185px;
@@ -272,6 +276,7 @@
 .smoothie__img{
     margin: -15px 0 15px;
 }
+
 .smoothie__caption{
     font-family: "MuliBold" , sans-serif;
     font-weight: 700;
