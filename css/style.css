@@ -289,15 +289,18 @@
 .about{
     background-color: #158273;
 }
+
 .about__inner{
     max-width: 1610px;
     margin: 0 auto;
     display: flex;
 }
+
 .about__img-wrap{
     margin: 60px 145px -87px 0px;
     z-index: 15;
 }
+
 .about__img{
     max-width: 100%;
     transform: rotate(-6.5deg);
@@ -306,6 +309,7 @@
     -ms-transform: rotate(-6.5deg);
     -o-transform: rotate(-6.5deg);
 }
+
 .about__img:hover{
     transform: rotate(6deg);
     -webkit-transform: rotate(6deg);
@@ -313,12 +317,14 @@
     -ms-transform: rotate(6deg);
     -o-transform: rotate(6deg);
 }
+
 .about__content{
     margin-top: 90px;
     max-width: 640px;
     position: relative;
 
 }
+
 .about__title{
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 600;
@@ -326,15 +332,18 @@
     line-height: 60px;
     color: #fff;
 }
+
 .about__title::after{
     content:url(../image/img/Line.png);
     position: absolute;
     top: 82px;
     left: 65px;
 }
+
 .about__green-text{
     color: #cae941;
 }
+
 .about__list{
     font-size: 21px;
     line-height: 45px;
@@ -342,14 +351,17 @@
     margin:43px 0 33px;
     position: relative;
 }
+
 .about__item{
     list-style-type:none;
     font-family: "MuliRegul", sans-serif;
     font-weight: 200;
 }
+
 .about__bolt-text{
     font-weight: 700;
 }
+
 .about__item::before{
     content:url(../image/icon/1.png);
     top:0;
@@ -377,12 +389,14 @@
     padding-left: 21px;
     margin-bottom: 85px;
 }
+
 .about__btn::after{
     content: url(../image/icon/arrow.png);
     position: absolute;
     top: 559px;
     left: 301px;
 }
+
 .btn--border-orange{
     border: 2px solid #f8b231;
 }
