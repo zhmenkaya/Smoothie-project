@@ -35,6 +35,7 @@
     max-width: 1720px;
     margin: 0 auto;
 }
+
 .header__top{
     padding: 86px 0 120px 0;
     display: flex;
@@ -42,15 +43,19 @@
     align-items:baseline;
     position: relative;
 }
+
 .menu{
     display: flex;
 }
+
 .menu__item{
     margin-right: 33px;
 }
+
 .menu__item:last-child{
     margin-right: 0;
 }
+
 .menu__link{
     text-decoration: none;
     font-family: "MuliBold", sans-serif;
@@ -60,6 +65,7 @@
     line-height: 40px;
     text-transform: uppercase;
 }
+
 .header__logo{
     position:absolute;
     top:50%;
@@ -70,6 +76,7 @@
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
+
 .logo__link{
     display: block;
 }
@@ -78,14 +85,17 @@
     display: flex;
     margin-left:100px;
 }
+
 .header__personal{
     margin-right: 130px;
 }
+
 .personal__list{
     display: flex;
     align-items: center;
     position: relative;
 }
+
 .personal__list::after{
     content: "";
     width: 50px;
@@ -95,17 +105,21 @@
     position: absolute;
     top:14px;
     right: -100px;
-}    
+} 
+
 .personal__item{
     list-style-type:none;
     margin-right: 45px;
 }
+
 .personal__item:last-child{
     margin-right: 0;
 }
+
 .personal__link{
     
 }
+
 .personal__counter{
     font-family: "MuliRegul" , sans-serif;
     font-weight: 400;
@@ -132,12 +146,15 @@
     list-style-type:none;
     display: flex;
 }
+
 .social__item{
     margin-right: 10px;
 }
+
 .social__item:last-child{
     margin-right: 0;
 }
+
 .social__link{
     display: inline-block;
     min-width: 35px;
@@ -152,14 +169,17 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
 .header__content{
     display: flex;
     justify-content: center;
 }
+
 .header__btn{
     width: 290px;
     height: 70px;
 }
+
 .btn{
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 700;
@@ -175,13 +195,16 @@
     -o-border-radius:35%;
     padding-left: 50px;
 }
+
 .btn--green{
     background-color: #0aa566;
 }
+
 .btn--green::after{
     content:url(../image/icon/arrow.png);
     margin-left: 52px;
 }
+
 .btn--green:hover{
     transform: translateX(10px);
 }
@@ -894,6 +917,7 @@
     top: 3px;
     left: 19px;
 }
+
 .footer__btn-top::after{
     content:"Go top";
     font-family: "MuliBold" , sans-serif;
