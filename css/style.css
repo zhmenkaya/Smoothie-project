@@ -500,11 +500,13 @@
     justify-content: space-between;
     position: relative;
 }
+
 .story__content{
     max-width: 524px;
     margin: 260px 200px 0 0;
     
 }
+
 .stoty__title{
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 600;
@@ -513,6 +515,7 @@
     color: #f7ae3b;
     margin-bottom: 44px;
 }
+
 .story__text{
     font-family: "MuliRegul", sans-serif;
     font-weight: 400;
@@ -522,6 +525,7 @@
     letter-spacing: 0.5px;
     margin-bottom: 47px;
 }
+
 .story__btn{
     padding-left: 46px;
     display: block;
@@ -552,10 +556,12 @@
 .story__img-wrap{
     margin: 120px 0 155px;
 }
+
 .story__img{
     max-width: 100%;
     
 }
+
 .story__img-wrap::after{
     content:url(../image/img/Stamp.png);
     position: absolute;
