@@ -682,6 +682,11 @@
     line-height: 35px;
     text-decoration: none;
 }
+.blog__text-link::after{
+    content:url(../image/icon/little-arrow.png);
+    padding-left: 8px;
+}
+
 
 .instagram{
     display: flex;
@@ -829,7 +834,6 @@
 }
 .subscription__list{
     display: flex;
-    justify-content: flex-end;
 }
 
 .subscription__btn{
@@ -851,8 +855,8 @@
     border: none;
 }
 .subscription__link{
-    margin-right: 20px;
-    display: inline-block;
+    margin-right: 16px;
+    display: block;
     min-width: 35px;
     max-width: 35px;
     height: 35px;
@@ -900,4 +904,8 @@
     position: absolute;
     top: 42px;
     left: -61px;
+}
+.subscription__wrap-social{
+    display: flex;
+    justify-content: space-between;
 }
