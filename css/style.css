@@ -1091,4 +1091,29 @@
         /* margin: 0 auto; */
         flex-wrap: wrap;
     }
+    .story__content {
+        max-width: 530px;
+        margin: 71px 0px 0 36px;
+    }
+    .stoty__title {
+        font-size: 44px;
+        margin-bottom: 42px;
+    }
+    .story__text {
+        font-size: 17px;
+        margin-bottom: 47px;
+    }
+    .story__btn {
+        padding-left: 28px;
+        width: 297px;
+    }
+    .story__img-wrap {
+        margin: 82px 0px 76px 155px;
+    }
+    .story__img-wrap::after {
+        content: url(../image/img/Stamp.png);
+        position: absolute;
+        top: 503px;
+        left: -12px;
+    }
 }
