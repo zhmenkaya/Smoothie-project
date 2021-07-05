@@ -68,13 +68,13 @@
 
 .header__logo{
     position:absolute;
-    top:50%;
+    top:107px;
     left:50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 .logo__link{
@@ -967,4 +967,11 @@
 .subscription__wrap-social{
     display: flex;
     justify-content: space-between;
+}
+
+
+@media screen and (max-width:768px) {
+    .header__top{
+        /* display: none; */
+    }
 }
