@@ -1145,4 +1145,32 @@
     .testimonials__img {
         margin: 0 auto 94px;
     }
+
+    .blog {
+        max-width: 694px;
+    }
+    
+    .blog__inner {
+        flex-wrap: wrap;
+    }
+
+
+    .blog__img-wrap {
+        width:100%;
+        margin-bottom: -42px;
+    }
+    .blog__img {
+        width: 100%;
+    }
+    .blog__subtitle::before {
+        display: none;
+    }
+    .blog__subtitle {
+        margin-top: none;
+        margin-bottom: 4px;
+    }
+
+    .blog__text {
+    margin-bottom: 145px;
+    }
 }
