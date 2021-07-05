@@ -1063,5 +1063,32 @@
     }
     .about__content{
     margin-left: 35px;
-    }    
+    }  
+    .about__btn {
+        margin-bottom: 100px;
+    }  
+    .products__inner {
+        overflow-x: auto;
+    }
+    .product {
+        min-width: 480px;
+        padding: 129px 0 78px;
+    }
+    /* .products__inner::-webkit-scrollbar {
+        display: none;
+    } */
+    .product__img {
+        margin-bottom: 32px;
+    }
+    .product__caption {
+        margin-bottom: 13px;
+    }
+    .product__volume {
+        margin-bottom: 60px;
+    }
+    .story__inner {
+        /* max-width: 1310px; */
+        /* margin: 0 auto; */
+        flex-wrap: wrap;
+    }
 }
