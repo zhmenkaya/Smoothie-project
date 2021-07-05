@@ -1087,8 +1087,6 @@
         margin-bottom: 60px;
     }
     .story__inner {
-        /* max-width: 1310px; */
-        /* margin: 0 auto; */
         flex-wrap: wrap;
     }
     .story__content {
@@ -1115,5 +1113,36 @@
         position: absolute;
         top: 503px;
         left: -12px;
+    }
+
+    .testimonials__title {
+        padding-top: 117px;
+        margin-bottom: 97px;
+    }
+    
+    .testimonials__slider {
+        max-width: 500px;
+        flex-direction: column-reverse;
+    }
+    .testimonials__slide {
+        margin: -13px 0 0 0;
+    }
+
+    .testimonials__quote {
+        font-size: 17px;
+        margin-bottom: 17px;
+    }
+
+    .testimonials__quote::before {
+        content: "Sarah A";
+        font-size: 173px;
+        bottom: 83%;
+        left: -37%;
+    }
+    .testimonials__cite {
+        margin-bottom: 100px;
+    }
+    .testimonials__img {
+        margin: 0 auto 94px;
     }
 }
