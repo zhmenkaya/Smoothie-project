@@ -1036,7 +1036,7 @@
     }
     .smoothies__content {
         max-width: 540px;
-        margin-bottom: 118px;
+        margin-bottom: 120px;
     }
     .smoothies__card {
         flex: 0 1 calc(100% / 2);
@@ -1054,4 +1054,14 @@
     .smoothies__card:nth-child(2), .smoothies__card:nth-child(6){
         border-right: none;
     }
+    .about__inner {
+        /* max-width: 1610px; */
+        flex-wrap: wrap;
+    }
+    .about__img-wrap {
+        margin: 60px 0px -25px 38px;
+    }
+    .about__content{
+    margin-left: 35px;
+    }    
 }
