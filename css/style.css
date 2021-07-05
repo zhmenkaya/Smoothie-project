@@ -1028,8 +1028,30 @@
         top: 100px;
     }
     .smoothies__title{
-        margin: 50px 0 40px;
+        margin: 50px 0 23px;
+        font-size: 45px;
+    }
+    .smoothies__text {
+        max-width: 700px;
+    }
+    .smoothies__content {
+        max-width: 540px;
+        margin-bottom: 118px;
     }
     .smoothies__card {
         flex: 0 1 calc(100% / 2);
+    }
+    .smoothies__card:first-child, .smoothies__card:nth-child(3), .smoothies__card:nth-child(5) {
+        border-right: 3px solid #f6edde;
+        border-bottom: 3px solid #f6edde;
+    }
+    .smoothies__card:nth-child(2), .smoothies__card:nth-child(4), .smoothies__card:nth-child(6) {
+        border-bottom: 3px solid #f6edde;
+    }
+    .smoothies__card:nth-child(7) {
+        border-right: 3px solid #f6edde;
+    }
+    .smoothies__card:nth-child(2), .smoothies__card:nth-child(6){
+        border-right: none;
+    }
 }
