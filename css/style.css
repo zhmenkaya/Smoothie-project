@@ -1173,4 +1173,18 @@
     .blog__text {
     margin-bottom: 145px;
     }
+
+    .instagram__link {
+        padding-left: 109px;
+    }
+    .instagram__link::before {
+        left: 70px;
+    }
+
+    .gallery {
+        overflow-x: auto;
+    }
+
+    .gallery__card {
+        min-width: 381px;
 }
