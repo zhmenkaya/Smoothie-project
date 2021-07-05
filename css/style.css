@@ -168,7 +168,9 @@
 }
 
 .social__link{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-width: 35px;
     max-width: 35px;
     height: 35px;
@@ -985,8 +987,49 @@
 @media screen and (max-width:768px) {
     .header__navigation{
         display: none;
+        position: fixed;
+        background-color: #0aa566;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9999999;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding-top: 150px;
     }
+
+    .header__right-block{
+        margin: 0 auto 100px;
+    }
+
     .header__burger-btn{
         display: block;
+        z-index: 9999999;
     }
+
+    .menu{
+        margin: 0 auto;
+    }
+
+    .menu__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu__item{
+        margin: 0 0 50px;
+    }
+    .header__top {
+        padding: 155px 0 120px 0;
+    }
+    .header__logo {
+        top: 100px;
+    }
+    .smoothies__title{
+        margin: 50px 0 40px;
+    }
+    .smoothies__card {
+        flex: 0 1 calc(100% / 2);
 }
