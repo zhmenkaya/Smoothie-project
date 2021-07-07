@@ -335,8 +335,6 @@
 .about__content{
     margin-top: 90px;
     max-width: 640px;
-    position: relative;
-
 }
 
 .about__title{
@@ -402,12 +400,13 @@
     text-align:left;
     padding-left: 21px;
     margin-bottom: 85px;
+    position: relative;
 }
 
 .about__btn::after{
     content: url(../image/icon/arrow.png);
     position: absolute;
-    top: 559px;
+    top: 0px;
     left: 301px;
 }
 
@@ -991,6 +990,9 @@
     .menu__item {
         margin-right: 20px;
     }
+    .about__img-wrap {
+        margin: 60px 45px 0px 0px;
+    }
 }
 @media screen and (max-width:1250px) {
     .header__navigation{
@@ -1033,6 +1035,18 @@
     
     .menu__item{
         margin: 0 0 50px;
+    }
+    .about__img-wrap {
+        margin: 50px 27px 0px 0px;
+    }
+    .about__content {
+        max-width: 605px;
+    }
+    .about__title {
+        font-size: 55px;
+    }
+    .about__btn {
+        margin-bottom: 60px;
     }
 }
 @media screen and (max-width:768px) {
