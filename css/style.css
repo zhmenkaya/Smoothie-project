@@ -856,15 +856,14 @@
     text-decoration: none;
 }
 .payment__block{
-    width: 336px;
-    display: flex;
+    width: 300px;
+    /* display: flex; */
     flex-wrap: wrap;
     margin-bottom: 65px;
 }
 .payment__icon{
-    /* min-height: 25px; */
-    padding-right: 24px;
-    margin-bottom: 25px;
+    padding-right: 15px;
+    margin-bottom: 17px;
 } 
 .subscription__form{
     display: flex;
@@ -984,7 +983,16 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1330px) {
+    .header__inner {
+        max-width: 1380px;
+        margin: 0 auto;
+    }
+    .menu__item {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width:1250px) {
     .header__navigation{
         display: none;
         position: fixed;
@@ -994,22 +1002,27 @@
         bottom: 0;
         left: 0;
         z-index: 9999999;
+        /* display: flex; */
         flex-direction: column-reverse;
         justify-content: flex-end;
         padding-top: 150px;
     }
-
-    .header__right-block{
-        margin: 0 auto 100px;
-    }
-
     .header__burger-btn{
         display: block;
         z-index: 9999999;
     }
-
+    .header__burger-btn-icon {
+        width: 55px;
+    }
+    .header__top {
+        padding: 155px 0 120px 0;
+    }
+    .header__right-block{
+        margin: 0 auto 100px;
+    }
     .menu{
         margin: 0 auto;
+        justify-content: center;
     }
 
     .menu__list{
@@ -1021,9 +1034,15 @@
     .menu__item{
         margin: 0 0 50px;
     }
-    .header__top {
-        padding: 155px 0 120px 0;
+}
+@media screen and (max-width:768px) {
+    .header__burger-btn-icon {
+        width: 40px;
     }
+    
+
+    
+    
     .header__logo {
         top: 100px;
     }
@@ -1220,3 +1239,53 @@
         min-width: 415px;
     }
 }
+
+@media screen and (max-width:576px) {
+    .header__right-block {
+        flex-direction: column;
+    }
+    .header__personal {
+        margin:0 auto 35px;
+    }
+    .personal__list::after {
+        display: none;
+    }
+    .smoothies__title {
+        margin: 45px 0 25px;
+        font-size: 35px;
+    }
+    .smoothies__text {
+        max-width: 540px;
+        margin: 0 auto 44px;
+    }
+    .smoothies__content {
+        max-width: 480px;
+        margin-bottom: 90px;
+    }
+    .smoothie__caption {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .header__burger-btn {
+        position: fixed;
+        top: 20px;
+        right: 15px;
+    } 
+    .smoothies__title {
+        margin: 36px 0 29px;
+        font-size: 40px;
+        line-height: 48px;
+    } 
+    
+    .smoothies__text {
+        max-width: 325px;
+    }
+    
+    .smoothies__content {
+        max-width: 450px;
+    }
+
+}    
