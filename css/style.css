@@ -984,6 +984,12 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width:1880px) {
+    .testimonials__title::after {
+        display: none;
+    }
+}
+
 @media screen and (max-width:1400px) {
     .story__inner {
         max-width: 1120px;
@@ -1066,6 +1072,16 @@
     .product__caption {
         font-size: 20px;
     }
+    .blog {
+        max-width: 978px;
+    }
+    .blog__img-wrap {
+        margin-right: 60px;
+    }
+    .blog__subtitle {
+        margin-top: 75px;
+    }
+
 }
 
 @media screen and (max-width:1180px) {
@@ -1123,6 +1139,21 @@
     .story__img-wrap::after {
         top: 71px;
         left: 215px;
+    }
+    .testimonials__quote::before {
+        font-size: 170px;
+        bottom: 109%;
+        left: -35%;
+    }
+    .blog {
+        max-width: 854px;
+    }
+    .blog__img-wrap {
+        margin-right: 10px;
+    }
+    .blog__text {
+        padding-left: 40px;
+        margin-top: 26px;
     }
 }
 
@@ -1245,7 +1276,7 @@
 
     .testimonials__quote::before {
         content: "Sarah A";
-        font-size: 173px;
+        font-size: 150px;
         bottom: 83%;
         left: -37%;
     }
@@ -1394,6 +1425,9 @@
     }
     .story__img-wrap {
         margin: 82px 0px 76px 47px;
+    }
+    .testimonials__quote::before {
+        display: none;
     }
 }
 
