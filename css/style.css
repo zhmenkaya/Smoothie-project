@@ -436,7 +436,7 @@
     align-items: center;
     padding: 140px 0 78px;
     width: 25%;
-    position: relative;
+    
 }
 
 .product--brown-background{
@@ -494,14 +494,14 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    position: relative;
 }
 
 .product__btn::after{
     content:url(../image/icon/white-arrow.png);
     position:absolute;
-    top: 605px;
-    left: 276px;
-
+    top: 18px;
+    right: 25px;
 }
 
 .btn--border-white{
@@ -1051,6 +1051,9 @@
     .about__btn {
         margin-bottom: 60px;
     }
+    .product__caption {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width:995px) {
@@ -1069,16 +1072,15 @@
     .about__list {
         font-size: 20px;
     }
+    .product__btn {
+        width: 170px;
+    }
 }
 
 @media screen and (max-width:768px) {
     .header__burger-btn-icon {
         width: 40px;
     }
-    
-
-    
-    
     .header__logo {
         top: 100px;
     }
@@ -1136,10 +1138,14 @@
         margin-bottom: 32px;
     }
     .product__caption {
+        font-size: 21px;
         margin-bottom: 13px;
     }
     .product__volume {
         margin-bottom: 60px;
+    }
+    .product__btn {
+        width: 205px;
     }
     .story__inner {
         flex-wrap: wrap;
@@ -1331,7 +1337,9 @@
     .smoothie__caption {
         font-size: 23px;
     }
-
+    .product {
+        min-width: 400px;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -1352,6 +1360,18 @@
     
     .smoothies__content {
         max-width: 450px;
+    }
+    .product {
+        min-width: 295px;
+    }
+    .product__caption {
+        font-size: 18px;
+    }
+    .product__volume {
+        font-size: 17px;
+    }
+    .product__btn {
+        width: 190px;
     }
 
 }    
