@@ -1223,34 +1223,64 @@
     }
 
     .footer__inner {
-        flex-direction:column;
+        max-width: 590px;
         flex-wrap: wrap;
     }
 
     .footer__logo {
         width: 100%;
         justify-content: center;
-        margin-top: 46px;
+        margin-top: 65px;
     }
 
     .footer__information {
-        width: 30%;
+        width: 45%;
         margin: 0 auto;
     }    
 
+    .footer__title {
+        margin: 57px 0 23px;
+    }
+
     .footer__payment {
-        width: 30%;
+        width: 40%;
         margin: 0 auto;
     }
 
+    .payment__block {
+        margin-bottom: 6px;
+    }
+
+
     .footer__subscription {
-        width: 30%;
-        margin: 0 auto 50px;
+        width: 93%;
+        margin: 0 auto 85px;
     }
 
     .subscription__newsletter {
         padding-left: 62px;
-        min-width: 415px;
+        min-width: 495px;
+    }
+
+    .subscription__wrap-social {
+        justify-content: space-evenly;
+    }
+
+    .subscription__btn {
+        margin-left: 99px;
+    }
+
+    .subscription__social {
+        margin-left: -55px;
+    }
+
+    .footer__btn-top {
+        bottom: 44px;
+        right: 14px;
+    }
+
+    .footer__bottom {
+        font-size: 20px;
     }
 }
 
