@@ -26,7 +26,7 @@
 
 .header{
     height: 100vh;
-    background:  url(../image/img/main-img.png) no-repeat;
+    background:  url("./../images/img/main-img.png") no-repeat;
     background-position: center;
     background-size: cover;
 } 
@@ -218,7 +218,7 @@
 }
 
 .btn--green::after{
-    content:url(../image/icon/arrow.png);
+    content:url("./../images/icon/arrow.png");
     margin-left: 52px;
 }
 
@@ -355,7 +355,7 @@
 }
 
 .about__title::after{
-    content:url(../image/img/Line.png);
+    content:url("./../images/img/Line.png");
     position: absolute;
     top: 81px;
     left: 51px;
@@ -381,7 +381,7 @@
 }
 
 .about__item::before{
-    content:url(../image/icon/1.png);
+    content:url("./../images/icon/1.png");
     top:0;
     left: 0;
     padding-right: 14px;
@@ -410,7 +410,7 @@
 }
 
 .about__btn::after{
-    content: url(../image/icon/arrow.png);
+    content: url("./../images/icon/arrow.png");
     position: absolute;
     top: 0px;
     left: 301px;
@@ -501,7 +501,7 @@
 }
 
 .product__btn::after{
-    content:url(../image/icon/white-arrow.png);
+    content:url("./../images/icon/white-arrow.png");
     position:absolute;
     top: 18px;
     right: 25px;
@@ -566,7 +566,7 @@
 }
 
 .story__btn::after{
-    content:url(../image/icon/arrow.png);
+    content:url("./../images/icon/arrow.png");
     position:absolute;
     top: 2px;
     left: 191px;
@@ -582,7 +582,7 @@
 }
 
 .story__img-wrap::after{
-    content:url(../image/img/Stamp.png);
+    content:url("./../images/img/Stamp.png");
     position: absolute;
     top: 143px;
     left: 564px
@@ -603,7 +603,7 @@
     position: relative;
 }
 .testimonials__title::after{
-    content:url(../image/img/Dots.png);
+    content:url("./../images/img/Dots.png");
     position: absolute;
     top: -79px;
     left: 1452px;
@@ -674,7 +674,7 @@
 }
 .testimonials__btn{
     background-color: #6a331f;
-    background-image:url(../image/icon/arrow.png);
+    background-image:url("./../images/icon/arrow.png");
     background-repeat: no-repeat;
     min-width:35px;
     min-height: 18px;
@@ -726,7 +726,7 @@
     position: relative;
 }
 .blog__subtitle::before{
-    content:url(../image/img/big-line.png);
+    content:url("./../images/img/big-line.png");
     position: absolute;
     bottom: 85px;
     right: -5px;
@@ -760,7 +760,7 @@
     text-decoration: none;
 }
 .blog__text-link::after{
-    content:url(../image/icon/little-arrow.png);
+    content:url("./../images/icon/little-arrow.png");
     padding-left: 8px;
 }
 
@@ -781,7 +781,7 @@
     position: relative;
 }
 .instagram__link::before{
-    content:url(../image/icon/instagram-green-icon.png);
+    content:url("./../images/icon/instagram-green-icon.png");
     position: absolute;
     /* top: 4px; */
     left: 20px;
@@ -798,7 +798,7 @@
 .gallery__card::after{
     content:"";
     display: block;
-    background-image:url(../image/icon/instagram-white-icon.png);
+    background-image:url("./../images/icon/instagram-white-icon.png");
     height: 27px;
     width: 27px;
     /* border:2px solid black; */
@@ -877,13 +877,13 @@
 }
 
 .subscription__newsletter-wrap::before{
-    content: url(../image/icon/letter-icon.png);
+    content: url("./../images/icon/letter-icon.png");
     position: absolute;
     top: 20px;
     left: 23px;
 }
 .subscription__newsletter-wrap::after{
-    content: url(../image/icon/arrow-down.png);
+    content: url("./../images/icon/arrow-down.png");
     position: absolute;
     top: 73px;
     left: 120px;
@@ -965,7 +965,7 @@
 }
 
 .footer__btn-top::before{
-    content: url(../image/icon/arrow-up.png);
+    content: url("./../images/icon/arrow-up.png");
     position: absolute;
     top: 3px;
     left: 19px;
