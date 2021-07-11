@@ -1,0 +1,29 @@
+.social__list{
+    list-style-type:none;
+    display: flex;
+}
+
+.social__item{
+    margin-right: 10px;
+}
+
+.social__item:last-child{
+    margin-right: 0;
+}
+
+.social__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 35px;
+    max-width: 35px;
+    height: 35px;
+    line-height: 2.3;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

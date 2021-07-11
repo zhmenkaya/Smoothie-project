@@ -1,0 +1,18 @@
+.menu__item{
+    margin-right: 33px;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.menu__link{
+    text-decoration: none;
+    font-family: "MuliBold", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    flex-direction: row;
+}

@@ -1,0 +1,28 @@
+.btn{
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color:#fff;
+    border: none;
+    text-align: start;
+    border-radius:35%;
+    -webkit-border-radius:35px;
+    -moz-border-radius:35%;
+    -ms-border-radius:35%;
+    -o-border-radius:35%;
+    padding-left: 50px;
+}
+
+.btn--green{
+    background-color: #0aa566;
+}
+
+.btn--green::after{
+    content:url("./../images/icon/arrow.png");
+    margin-left: 52px;
+}
+
+.btn--green:hover{
+    transform: translateX(10px);
+}
