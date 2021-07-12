@@ -136,6 +136,7 @@ function cssWatch(cb) {
         }))
         .pipe(sass({
             includePaths: './node_modules/'
+            
         }))
         .pipe(concat('style.css'))
         .pipe(rename({
