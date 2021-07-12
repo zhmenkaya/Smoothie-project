@@ -1,3 +1,5 @@
+// header class="header"
+
 .btn{
     font-family: "MuliExtBold" , sans-serif;
     font-weight: 700;
@@ -25,4 +27,16 @@
 
 .btn--green:hover{
     transform: translateX(10px);
+}
+
+// section class="about"
+
+.btn--border-orange{
+    border: 2px solid #f8b231;
+}
+
+// section class="products"
+
+.btn--border-white{
+    border: 1px solid #fff;
 }

@@ -1,0 +1,112 @@
+.about{
+    background-color: #158273;
+}
+
+.about__inner{
+    max-width: 1610px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about__img-wrap{
+    margin: 60px 145px -87px 0px;
+    z-index: 15;
+}
+
+.about__img{
+    max-width: 100%;
+    transform: rotate(-6.5deg);
+    -webkit-transform: rotate(-6.5deg);
+    -moz-transform: rotate(-6.5deg);
+    -ms-transform: rotate(-6.5deg);
+    -o-transform: rotate(-6.5deg);
+}
+
+.about__img:hover{
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+.about__content{
+    margin-top: 90px;
+    max-width: 640px;
+}
+
+.about__title{
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 60px;
+    color: #fff;
+    position: relative;
+}
+
+.about__green-text{
+    color: #cae941;
+    
+}
+
+.about__title::after{
+    content:url("./../images/img/Line.png");
+    position: absolute;
+    top: 81px;
+    left: 51px;
+}
+
+.about__list{
+    font-size: 21px;
+    line-height: 45px;
+    color: #fff;
+    margin:43px 0 33px;
+   
+}
+
+
+.about__item{
+    list-style-type:none;
+    font-family: "MuliRegul", sans-serif;
+    font-weight: 200;
+}
+
+.about__bolt-text{
+    font-weight: 700;
+}
+
+.about__item::before{
+    content:url("./../images/icon/1.png");
+    top:0;
+    left: 0;
+    padding-right: 14px;
+}
+
+.about__btn{
+    display: block;
+    width: 380px;
+    height: 60px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 55px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    text-align:left;
+    padding-left: 21px;
+    margin-bottom: 85px;
+    position: relative;
+}
+
+.about__btn::after{
+    content: url("./../images/icon/arrow.png");
+    position: absolute;
+    top: 0px;
+    left: 301px;
+}

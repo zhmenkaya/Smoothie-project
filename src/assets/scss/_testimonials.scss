@@ -1,0 +1,95 @@
+.testimonials{
+    background-color:#6a331f;
+}
+.testimonials__title{
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 550;
+    font-size: 46px;
+    line-height: 40px;
+    color: #f7ae3b;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 130px;
+    position: relative;
+}
+.testimonials__title::after{
+    content:url("./../images/img/Dots.png");
+    position: absolute;
+    top: -79px;
+    left: 1452px;
+}
+.testimonials__orange-text{
+    color: #f2612d;
+    text-transform: uppercase;
+}
+.testimonials__slider{
+    max-width: 749px;
+    margin: 0 auto;
+    display: flex;
+}
+.testimonials__slide{
+    margin: 51px 63px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials__quote{
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #e9e1df;
+    font-size: 17px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom:17px;
+    position: relative;
+    
+}
+.testimonials__quote::before{
+    content: "Sarah A";
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 600;
+    color:#521905;
+    width: 850px;
+    font-size: 203px;
+    position: absolute;
+    bottom: 89%;
+    left: -41%;
+    opacity: 0.5;
+    z-index: 1;
+}
+.testimonials__cite{
+    font-family: "MuliExtBold" , sans-serif;
+    font-weight: 400;
+    color: #f7ae3b;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.testimonials__img{
+    width: 220px;
+    margin-bottom: 117px;
+    z-index: 3;
+}
+.testimonials__button-block{
+    max-width: 155px;
+    margin: 0 auto;
+    display: flex;    
+}
+#testimonials__btn-left{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.testimonials__btn{
+    background-color: #6a331f;
+    background-image:url("./../images/icon/arrow.png");
+    background-repeat: no-repeat;
+    min-width:35px;
+    min-height: 18px;
+    border: none;
+    text-align: center;
+    margin-right: 99px;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,21 @@
+.gallery__card{
+    width: 20%;
+    margin-bottom: 8px;
+    position: relative; 
+}
+
+.gallery__card::after{
+    content:"";
+    display: block;
+    background-image:url("./../images/icon/instagram-white-icon.png");
+    height: 27px;
+    width: 27px;
+    /* border:2px solid black; */
+    position: absolute;
+    bottom: 24px;
+    right: 18px;    
+}
+
+.gallery__img{ 
+    width: 100%;
+}
