@@ -1,3 +1,6 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
 @font-face{
     font-family: "MuliBold";
     src: url("./../fonts/Muli-Bold.ttf") format("ttf");
