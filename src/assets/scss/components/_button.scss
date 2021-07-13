@@ -14,29 +14,29 @@
     -ms-border-radius:35%;
     -o-border-radius:35%;
     padding-left: 50px;
-}
 
-.btn--green{
-    background-color: #0aa566;
-}
-
-.btn--green::after{
-    content:url("./../images/icon/arrow.png");
-    margin-left: 52px;
-}
-
-.btn--green:hover{
-    transform: translateX(10px);
-}
-
-// section class="about"
-
-.btn--border-orange{
-    border: 2px solid #f8b231;
-}
-
-// section class="products"
-
-.btn--border-white{
-    border: 1px solid #fff;
+    &--green{
+        background-color: #0aa566;
+        &::after{
+            content:url("./../images/icon/arrow.png");
+            margin-left: 52px;
+        }
+        
+        &:hover{
+            transform: translateX(10px);
+        }
+    }
+    
+    // section class="about"
+    
+    &--border-orange{
+        border: 2px solid #f8b231;
+    }
+    
+    // section class="products"
+    
+    &--border-white{
+        border: 1px solid #fff;
+    }
+    
 }

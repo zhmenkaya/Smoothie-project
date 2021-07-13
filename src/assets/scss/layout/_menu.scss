@@ -1,23 +1,24 @@
-.menu__list{
-    display: flex;
-}
-
-
-.menu__item{
-    margin-right: 33px;
-}
-
-.menu__item:last-child{
-    margin-right: 0;
-}
-
-.menu__link{
-    text-decoration: none;
-    font-family: "MuliBold", sans-serif;
-    font-weight: 700;
-    color: #fff;
-    font-size: 16px;
-    line-height: 40px;
-    text-transform: uppercase;
-    flex-direction: row;
+.menu{
+    &__list{
+        display: flex;
+    }
+    
+    &__item{
+        margin-right: 33px;
+    }
+    
+    &__item:last-child{
+        margin-right: 0;
+    }
+    
+    &__link{
+        text-decoration: none;
+        font-family: "MuliBold", sans-serif;
+        font-weight: 700;
+        color: #fff;
+        font-size: 16px;
+        line-height: 40px;
+        text-transform: uppercase;
+        flex-direction: row;
+    }
 }
