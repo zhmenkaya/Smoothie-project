@@ -26,12 +26,12 @@ a{
 
 @import "./normalize";
 
-@import "./button";
-@import "./header";
-@import "./media";
-@import "./menu";
+
+@import "./layout/header";
+@import "./layout/menu";
 @import "./personal";
 @import "./social";
+@import "./components/button";
 @import "./smoothies";
 @import "./about";
 @import "./products";
@@ -41,8 +41,9 @@ a{
 @import "./blog";
 @import "./instagram";
 @import "./gallery";
-@import "./footer";
+@import "./layout/footer";
 @import "./information";
 @import "./payment";
 @import "./subscription";
 
+@import "./media";
