@@ -1,10 +1,12 @@
-.payment__block{
-    width: 300px;
-    flex-wrap: wrap;
-    margin-bottom: 65px;
+.payment{
+    &__block{
+        width: 300px;
+        flex-wrap: wrap;
+        margin-bottom: 65px;
+    }
+    
+    &__icon{
+        padding-right: 15px;
+        margin-bottom: 17px;
+    } 
 }
-
-.payment__icon{
-    padding-right: 15px;
-    margin-bottom: 17px;
-} 
