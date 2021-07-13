@@ -1,17 +1,19 @@
-.products__item{
-    font-family: "MuliExtBold" , sans-serif;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1.6px;
-    z-index: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 140px 0 78px;
-    width: 25%;
-}
-
-.products__inner{
-    display: flex;
-    border:none;
+.products{
+    &__item{
+        font-family: "MuliExtBold" , sans-serif;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 1.6px;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 140px 0 78px;
+        width: 25%;
+    }
+    
+    &__inner{
+        display: flex;
+        border:none;
+    }
 }

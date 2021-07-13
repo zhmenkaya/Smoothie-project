@@ -1,64 +1,65 @@
-.product--brown-background{
-    background-color:#672e19;
-}
-
-.product--green-background{
-    background-color: #178671;
-}
-
-.product--yellow-background{
-    background-color: #fbae37;
-}
-
-.product--orange-background{
-    background-color: #c7441a;
-}
-
-.product__img{
-    margin-bottom: 27px;
-}
-
-.product__caption{
-    font-size: 21px;
-    line-height: 22px;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.product__volume{
-    font-family: "MuliRegul", sans-serif;
-    font-weight: 200;
-    font-size: 21px;
-    line-height: 22px;
-    display: block;
-    text-align: center;
-    margin-bottom: 56px;
-}
-
-.product__btn{
-    width: 205px;
-    height: 60px;
-    display: block;
-    font-family: "MuliExtBold" , sans-serif;
-    font-weight: 400;
-    color: #fff;
-    font-size: 21px;
-    line-height: 22px;
-    letter-spacing: 1px;
-    background:rgba(128, 255, 0, 0);
-    text-align: left;
-    padding-left: 35px;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    position: relative;
-}
-
-.product__btn::after{
-    content:url("./../images/icon/white-arrow.png");
-    position:absolute;
-    top: 18px;
-    right: 25px;
+.product{
+    &--brown-background{
+        background-color:#672e19;
+    }
+    
+    &--green-background{
+        background-color: #178671;
+    }
+    
+    &--yellow-background{
+        background-color: #fbae37;
+    }
+    
+    &--orange-background{
+        background-color: #c7441a;
+    }
+    
+    &__img{
+        margin-bottom: 27px;
+    }
+    
+    &__caption{
+        font-size: 21px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    &__volume{
+        font-family: "MuliRegul", sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        line-height: 22px;
+        display: block;
+        text-align: center;
+        margin-bottom: 56px;
+    }
+    
+    &__btn{
+        width: 205px;
+        height: 60px;
+        display: block;
+        font-family: "MuliExtBold" , sans-serif;
+        font-weight: 400;
+        color: #fff;
+        font-size: 21px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        background:rgba(128, 255, 0, 0);
+        text-align: left;
+        padding-left: 35px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        position: relative;
+        &::after{
+            content:url("./../images/icon/white-arrow.png");
+            position:absolute;
+            top: 18px;
+            right: 25px;
+        }
+    }  
 }
