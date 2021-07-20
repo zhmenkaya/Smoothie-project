@@ -75,13 +75,6 @@
         margin: 0 auto;
         display: flex;    
     }
-    &__btn-left{
-        transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-    }
     &__btn{
         background-color: #6a331f;
         background-image:url("./../images/icon/arrow.png");
@@ -93,4 +86,12 @@
         margin-right: 99px;
         margin-bottom: 80px;
     }    
+}
+
+#testimonials__btn-left{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
 }
