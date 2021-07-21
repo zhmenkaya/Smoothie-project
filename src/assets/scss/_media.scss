@@ -4,6 +4,37 @@
     }
 }
 
+@media screen and (max-width:1880px) {
+    .footer__inner {
+        max-width: 1600px;
+    }
+    .subscription__newsletter {
+        min-width: 435px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .footer__inner {
+        max-width: 1350px;
+    }
+    .subscription__newsletter {
+        min-width: 365px;
+    }
+    .subscription__newsletter-wrap::after {
+        left: 69px;
+    }
+    .subscription__wrap-social {
+        flex-direction: column;
+    }
+    .subscription__btn {
+        margin-left: 125px;
+    }
+    .subscription__social {
+        margin: 15px auto 0px;
+    }
+}
+
+
 @media screen and (max-width:1400px) {
     .story__inner {
         max-width: 1120px;
@@ -15,6 +46,17 @@
     .story__img-wrap {
         margin: 118px 0 120px;
     }
+    .gallery {
+        overflow-x: auto;
+    }
+
+    .gallery__card {
+        min-width: 381px;
+    }
+    .footer__inner {
+        max-width: 1260px;
+    }
+    
 }
 
 @media screen and (max-width:1330px) {
@@ -27,6 +69,9 @@
     }
     .about__img-wrap {
         margin: 60px 45px 0px 0px;
+    }
+    .subscription__newsletter {
+        min-width: 300px;
     }
 }
 @media screen and (max-width:1250px) {
@@ -112,6 +157,21 @@
     .story__img-wrap::after {
         left: 505px;
     }
+    .footer__inner {
+        max-width: 940px;
+    }
+    .payment__block {
+        width: 230px;
+    }
+    .subscription__newsletter {
+        min-width: 278px;
+    }
+    .subscription__newsletter-wrap::after {
+        left: 21px;
+    }
+    .subscription__btn {
+        margin-left: 68px;
+    }
 }
 
 @media screen and (max-width:995px) {
@@ -178,6 +238,27 @@
     .blog__text {
         padding-left: 40px;
         margin-top: 26px;
+    }
+    .footer__inner {
+        max-width: 590px;
+        flex-wrap: wrap;
+    }
+    .footer__logo {
+        width: 100%;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    .footer__information {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .footer__payment {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .footer__subscription {
+        width: 93%;
+        margin: 0 auto 85px;
     }
 }
 
@@ -255,9 +336,7 @@
         min-width: 480px;
         padding: 129px 0 78px;
     }
-    /* .products__inner::-webkit-scrollbar {
-        display: none;
-    } */
+    
     .product__img {
         margin-bottom: 32px;
     }
@@ -361,14 +440,6 @@
     }
     .instagram__link::before {
         left: 70px;
-    }
-
-    .gallery {
-        overflow-x: auto;
-    }
-
-    .gallery__card {
-        min-width: 381px;
     }
 
     .footer__inner {
