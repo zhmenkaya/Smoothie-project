@@ -1,4 +1,4 @@
-// console.log(test(5, 2));
+// включение burger_menu по клику
 
 function burgerMenu() {
     let burgerIcon = document.querySelector(".header__burger-btn");
@@ -21,6 +21,7 @@ function burgerMenu() {
 burgerMenu();
 
 
+// якорные ссылки с плавной прокруткой
 
 let anchors = document.querySelectorAll("a[href*='#']");
 
@@ -35,3 +36,16 @@ for (let anchor of anchors) {
         })
     })
 }
+
+// появление кнопки go_top после скролла окна window
+
+let goTop = document.querySelector('.footer__btn-top');
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 0) {
+        goTop.style.opacity = 1
+    } else {
+        goTop.style.opacity = 0
+    }
+})
+

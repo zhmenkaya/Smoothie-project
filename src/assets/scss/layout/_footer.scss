@@ -61,6 +61,12 @@
         position: fixed;
         bottom: 38px;
         right: 86px;
+        opacity: 0;
+        transition: display 10s;
+        -webkit-transition: display 10s;
+        -moz-transition: display 10s;
+        -ms-transition: display 10s;
+        -o-transition: display 10s;
         &::before{
             content: url("./../images/icon/arrow-up.png");
             position: absolute;
