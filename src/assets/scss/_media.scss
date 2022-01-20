@@ -75,24 +75,6 @@
     }
 }
 @media screen and (max-width:1250px) {
-    .header__navigation{
-        display: none;
-        position: fixed;
-        background-color: #0aa566;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 9999999;
-        /* display: flex; */
-        flex-direction: column-reverse;
-        justify-content: flex-end;
-        padding-top: 150px;
-    }
-    .header__burger-btn{
-        display: block;
-        z-index: 9999999;
-    }
     .header__burger-btn-icon {
         width: 55px;
     }
@@ -631,6 +613,10 @@
     }
     .product__btn {
         width: 190px;
+    }
+    .footer__btn-top::before{
+        top: 3px;
+        left: 19px;
     }
 
 }    

@@ -13,7 +13,7 @@
     <div class="header__inner">
 
         <div class="header__top">
-            <div class="header__navigation">
+            <div id="burger_menu" class="header__navigation">
                 <nav class="header__menu menu">
                     <ul class="menu__list">
                         <il class="menu__item">
@@ -78,6 +78,7 @@
                         </ul>
                     </div>
                 </div>
+                <!--div id="close_icon" class="close_icon"></!div-->
             </div>
 
             <div class="header__logo logo">
@@ -86,8 +87,11 @@
                 </a>
             </div>
 
-            <button class="header__burger-btn">
+            <button id="burger_icon" class="header__burger-btn burger_icon">
                 <img class="header__burger-btn-icon" src="./assets/images/icon/menu.png" alt="">
+            </button>
+            <button id="close_icon" style="display:none;" class="header__burger-btn burger_icon">
+                x
             </button>
         </div>
         
@@ -383,9 +387,11 @@
     
 </footer>
 
-    <script src="./assets/js/script.js"></script>
+    
     <script>
         new WOW().init();
     </script>
+
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
