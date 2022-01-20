@@ -55,6 +55,7 @@
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
         position: relative;
+        cursor: pointer;
         &::after{
             content:url("./../images/icon/white-arrow.png");
             position:absolute;
