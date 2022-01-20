@@ -22,6 +22,11 @@
     font-weight: 600;
 }
 
+html,
+body {
+    min-width: 320px;
+}
+
 a{
     display: block;
 }

@@ -547,6 +547,9 @@
     .blog {
         max-width: 410px;
     }
+    .footer__logo {
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width:428px) {
@@ -581,6 +584,47 @@
     .blog__text-link {
         font-size: 14px;
     }
+    .footer__inner {
+        max-width: 375px;
+    }
+    .footer__logo {
+        margin-top: 10px;
+    }
+    .footer__information {
+        width: 40%;
+    }
+    .footer__title {
+        margin: 40px 0 20px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .information__link {
+    font-size: 16px;
+    line-height: 32px;
+    }
+    .footer__payment {
+        width: 60%;
+    }
+    .payment__block {
+        margin-bottom: 6px;
+        width: 228px;
+    }
+    .footer__subscription {
+    width: 90%;
+    }
+    .subscription__newsletter {
+        padding-left: 59px;
+        min-width: 340px;
+    }
+    .subscription__newsletter-wrap::after {
+        left: 35px;
+    }
+    .subscription__btn {
+        margin-left: 100px;
+    }
+    .subscription__social {
+        margin: 4px auto 0px;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -602,6 +646,42 @@
     .smoothies__content {
         max-width: 450px;
     }
+    .about__inner {
+        max-width: 250px;
+    }
+    .about__img-wrap {
+        margin: 35px 21px -55px 0px;
+    }
+    .about__content {
+        margin-left: 8px;
+        max-width: 227px;
+    }
+    
+    .about__title {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .about__title::after {
+        max-width: 203px;
+        top: 70px;
+        height: 9px;
+    }
+    .about__list {
+    font-size: 14px;
+    margin: 25px 0;
+    line-height: 38px;
+    }
+    .about__btn {
+        font-size: 13px;
+        width: 225px;
+        height: 42px;
+        padding-left: 11px;
+        line-height: 36px;
+    }
+    .about__btn::after {
+        left: 181px;
+        top: 4px;
+    }
     .product {
         min-width: 295px;
     }
@@ -618,5 +698,60 @@
         top: 3px;
         left: 19px;
     }
-
+    .footer__inner {
+        max-width: 280px;
+    }
+    .footer__logo {
+        width: 75%;
+        margin-top: 10;
+    }
+    .footer__information {
+        width: 90%;
+    }
+    .footer__payment {
+        width: 90%;
+    }
+    .payment__block {
+        width: 255px;
+    }
+    .footer__title {
+        margin: 15px 0 15px;
+        line-height: 32px;
+    }
+    .footer__subscription {
+        margin: 0 auto 33px;
+    }
+    .subscription__wrap-social {
+        flex-direction: column;
+        align-items:center;
+    }
+    .subscription__newsletter {
+        padding-left: 47px;
+        min-width: 245px;
+        height: 50px;
+        font-size: 16px;
+        &::placeholder{
+            font-size: 14px;
+            line-height: 28px;
+        }
+    }
+    .subscription__newsletter-wrap::before {
+    left: 16px;
+    top: 14px;
+    }
+    .subscription__newsletter-wrap::after {
+        left: 20px;
+        top: 52px;
+    }
+    .subscription__btn {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0;
+    }
+    .subscription__link {
+        margin-right: 7px;
+    }
+    .footer__btn-top::after {
+        left: -3px;
+    }
 }    
